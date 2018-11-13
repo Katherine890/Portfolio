@@ -1,0 +1,164 @@
+html {
+    background-color: black;
+}
+
+body {
+    background-color: black;
+}
+
+/* main heading */
+h1 {
+    font-family: "Beyno";
+    src: url("assets/images/BEYNO/BEYNO.otf");
+    font-size: 60px;
+    color: gray;
+    text-align: center;
+    position: relative;
+    left: 30px;
+    display: inline;
+}
+
+
+/* MAIN LINKS */
+.link-list li {
+    font-family: "Beyno";
+    src: url("assets/images/BEYNO/BEYNO.otf");
+    font-size: 30px;
+    position: relative;
+    top: 200px;
+    list-style-type: none;
+    line-height: 50px;
+    text-align: center;
+}
+
+#about,
+#portfolio,
+#contact {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+#about:hover,
+#portfolio:hover,
+#contact:hover {
+    color: black;
+    background-color: whitesmoke;
+    padding-top: 3px;
+    padding-bottom: 10px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 2px;
+}
+
+
+/* CONTENT */
+
+.about-section,
+.portfolio-section,
+.contact-section {
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+    padding: 10px;
+    position: relative;
+    top: 100px;
+}
+.subheading {
+    font-family: "Beyno";
+    src: url("assets/images/BEYNO/BEYNO.otf");
+    color: gray;
+}
+
+.about-section {
+    width: 900px;
+    position: relative;
+    left: 300px;
+    display: none;
+}
+
+.portfolio-section {
+    width: 900px;
+    position: relative;
+    left: 300px;
+    display: none;
+}
+
+#crystalg,
+#superhero-search,
+#traintime {
+    text-align: center;
+    text-decoration: none;
+}
+
+.contact-section {
+    width: 850px;
+    position: relative;
+    left: 300px;
+    display: none;
+    padding-left: 30px;
+}
+
+form {
+    font-family: "Aldrich", sans-serif;
+    color: whitesmoke;
+    font-size: 15px;
+}
+
+input,
+textarea {
+    width: 800px;
+    background-color: black;
+    border: 1px solid whitesmoke;
+    border-radius: 2px;
+    color: white;
+}
+
+.submit {
+    width: 100px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-family: "Aldrich", sans-serif;
+}
+
+.submit:hover {
+    color: black;
+    background-color: white;
+}
+
+
+p {
+    font-family: "Aldrich", sans-serif;
+    color: white;
+}
+
+
+/* NAV BAR */
+.container {
+    display: inline-block;
+    cursor: default;
+    margin-right: 30px;
+    float: right;
+    position: relative;
+    top: 20px;
+}
+
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: gray;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+}
+
+
