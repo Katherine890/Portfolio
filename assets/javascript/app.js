@@ -1,6 +1,9 @@
-// Nav bar toggle //
-function myFunction(x) {
-        x.classList.toggle("change");
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
 }
 
 // Fade in Heading Links //
@@ -8,23 +11,20 @@ $(document).ready(function() {
 
     $("#about").on("click", function() {
         $(".about-section").show();
-        $("#about").hide();
-        $("#portfolio").hide();
-        $("#contact").hide();
+        $(".portfolio-section").hide();
+        $(".contact-section").hide();
     })
 
     $("#portfolio").on("click", function() {
         $(".portfolio-section").show();
-        $("#portfolio").hide();
-        $("#about").hide();
-        $("#contact").hide();
+        $(".about-section").hide();
+        $(".contact-section").hide();
     })
 
     $("#contact").on("click", function() {
         $(".contact-section").show();
-        $("#contact").hide();
-        $("#portfolio").hide();
-        $("#about").hide();
+        $(".about-section").hide();
+        $(".portfolio-section").hide();
     })
 
 });
