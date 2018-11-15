@@ -1033,7 +1033,7 @@ body {
     float: right;
     position: relative;
     bottom: 245px;
-    left: 15px;
+    left: 1px;
 
 }
 
@@ -1212,6 +1212,25 @@ body {
     display: inline;
 }
 
+.crystal {
+    float: left;
+    position: relative;
+    right: 50px;
+}
+
+.superhero {
+    position: relative;
+    left: 180px;
+    top: 20px;
+}
+
+.train {
+    float: right;
+    position: relative;
+    bottom: 21px;
+    left: 50px;
+}
+
 .contact-section {
     width: 900px;
     position: relative;
@@ -1248,6 +1267,25 @@ textarea {
     background-color: white;
 }
 
+.links {
+    color: whitesmoke;
+    display: inline;
+    z-index: 2;
+}
+
+.github,
+.linkedin,
+.email {
+    color: whitesmoke;
+    display: inline;
+    z-index: 2;
+    position: relative;
+    top: 2200px;
+    left: 320px;
+    text-decoration: none;
+    font-family: "Aldrich", sans-serif;
+    padding-right: 30px;
+}
 
 p {
     font-family: "Aldrich", sans-serif;
