@@ -44,16 +44,16 @@
     <!--SideBar Nav-->
     <div id="mySidenav" class="sidenav">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <a id="about" href="#">About</a>
-        <a id="portfolio" href="#">Portfolio</a>
-        <a id="contact" href="#">Contact</a>
+        <a id="about" href="#about-section">About</a>
+        <a id="portfolio" href="#portfolio-section">Portfolio</a>
+        <a id="contact" href="#contact-section">Contact</a>
     </div>
 
     <div class="change-background"></div>
 
 
     <div class="content">
-        <section class="about-section">
+        <section id="about-section">
             <h2 class="subheading">About Me</h2>
             <p>Hi I'm Katherine Nguyen but most people call me Kat.
                 I'm an aspiring programmer and am currently enrolled in a web development program to further my career.
@@ -73,29 +73,35 @@
     <div class="change-background2"></div>
 
     <div class="content">
-        <section class="portfolio-section">
+        <section id="portfolio-section">
             <h2 class="subheading2">Portfolio</h2>
             <div class="crystalgame-section">
-                <a id="crystalg" href="https://katherine890.github.io/unit-4-game/" target="_blank">
-                    <p class="crystal">Crystal Challenge Game</p>
+                <a id="crystalg" href="https://katherine890.github.io/Crystal_Challenge" target="_blank">
+                    <p class="crystal">Crystal Challenge</p>
                 </a>
+                <a href="https://github.com/Katherine890/Crystal_Challenge" target="_blank"><img class="crystal-repo" src="assets/images/github-icon.png"></a>
+                <img class="crystal-image" src="assets/images/Screenshot (118).jpg"> 
             </div>
+
             <div class="superhero-section">
                 <a id="superhero-search" href="https://katherine890.github.io/GifTastic/" target="_blank">
                     <p class="superhero">Superhero Search</p>
                 </a>
+                <a href="https://github.com/Katherine890/GifTastic" target="_blank"><img class="superhero-repo" src="assets/images/github-icon.png"></a>
             </div>
+
             <div class="train-section">
                 <a id="traintime" href="https://katherine890.github.io/Train_Time/" target="_blank">
                     <p class="train">Train Times</p>
                 </a>
+                <a href="https://github.com/Katherine890/Train_Time" target="_blank"><img class="train-repo" src="assets/images/github-icon.png"></a>
             </div>
         </section>
     </div>
 
     <div class="change-background3"></div>
 
-    <section class="contact-section">
+    <section id="contact-section">
         <h2 class="subheading">Contact</h2>
         <form>
             Name<br><br>
@@ -111,10 +117,11 @@
         </form>
     </section>
 
-    <div class="links">
-        <a class="github" href="https://github.com/Katherine890/" target="_blank">Github</a>
-        <a class="linkedin" href="https://www.linkedin.com/in/katherine-nguyen-976918166/" target="_blank">LinkedIn</a>
-        <a class="email" type="Email" href="mailto:katherine_nguyen7@yahoo.com" target="_blank">Email</a>
+    <div>
+        <a class="links" href="https://github.com/Katherine890/" target="_blank">Github</a>
+        <a class="links" href="https://www.linkedin.com/in/katherine-nguyen-976918166/" target="_blank">LinkedIn</a>
+        <a class="links" type="Email" href="mailto:katherine_nguyen7@yahoo.com" target="_blank">Email</a>
+        <a class="links" type="call" href="#">408-728-5082</a>
     </div>
 </body>
 
