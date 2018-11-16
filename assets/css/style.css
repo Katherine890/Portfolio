@@ -1486,6 +1486,351 @@ p {
         padding-right: 30px;
     }
    
+}
+
+@media only screen and (max-width: 768px) {
+    #container {
+        height: auto 0;
+    }
+
+    .W:before {
+        position: absolute;
+        top: 400px;
+        left: 100px;
+    }
+
+    .E:before {
+        position: absolute;
+        top: 400px;
+        left: 200px;
+    }
     
+    .L:before {
+        position: absolute;
+        top: 400px;
+        left: 270px;
+    }
+
+    .C:before {
+        position: absolute;
+        top: 400px;
+        left: 330px;
+    }
+
+    .O:before {
+        position: absolute;
+        top: 400px;
+        left: 405px;
+    }
+
+    .M:before {
+        position: absolute;
+        top: 400px;
+        left: 480px;
+    }
+    
+    .E2:before {
+        position: absolute;
+        top: 400px;
+        left: 580px;
+    }
+
+    .intro {
+        display: inline;
+        line-height: 50px;
+        position: relative;
+        left: 200px;
+    }
+    #main-heading {
+        position: absolute;
+        top: 20px;
+    }
+
+    .nav-button {
+        position: relative;
+        left: 400px;
+        bottom: 500px;
+    }
+
+    .sidenav {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 3;
+        top: 0;
+        right: 320px;
+        background-color: whitesmoke;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+    }
+    
+    .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 55px;
+        margin-left: 50px;
+        text-decoration: none;
+        color: black;
+    }
+
+    .change-background {
+        position: absolute;
+        top: 1000px;
+        margin-left: 0;
+        width: 1500px;
+        height: 2000px;
+        background-color: whitesmoke;
+        z-index: 1;
+    }
+
+    #about-section {
+        position: relative;
+        width: 900px;
+        top: 500px;
+        left: 150px;
+        z-index: 2;
+    }
+
+    .change-background2 {
+        position: absolute;
+        bottom: 3000px;
+        left: 0px;
+        width: 1500px;
+        height: 1000px;
+        z-index: 1;
+    }
+
+    #portfolio-section {
+        position: relative;
+        left: 180px;
+        top: 1000px;
+        z-index: 2;
+        width: 1000px;
+    }
+
+    #contact-section {
+        position: relative;
+        top: 600px;
+        left: 140px;
+        z-index: 2;
+    }
+
+    .links {
+        color: whitesmoke;
+        display: inline;
+        z-index: 2;
+        position: relative;
+        top: 700px;
+        left: 200px;
+        text-decoration: none;
+        font-family: "Aldrich", sans-serif;
+        padding-right: 30px;
+    }
+   
+}
+
+@media only screen and (max-width: 980px) {
+    #container {
+        height: auto 0;
+        right: 200px;
+    }
+
+    .W:before {
+        position: absolute;
+        top: 400px;
+        left: 100px;
+    }
+
+    .E:before {
+        position: absolute;
+        top: 400px;
+        left: 200px;
+    }
+    
+    .L:before {
+        position: absolute;
+        top: 400px;
+        left: 270px;
+    }
+
+    .C:before {
+        position: absolute;
+        top: 400px;
+        left: 330px;
+    }
+
+    .O:before {
+        position: absolute;
+        top: 400px;
+        left: 405px;
+    }
+
+    .M:before {
+        position: absolute;
+        top: 400px;
+        left: 480px;
+    }
+    
+    .E2:before {
+        position: absolute;
+        top: 400px;
+        left: 580px;
+    }
+
+    .intro {
+        display: inline;
+        line-height: 50px;
+        position: relative;
+        left: 150px;
+    }
+    #main-heading {
+        position: absolute;
+        top: 20px;
+    }
+
+    .nav-button {
+        position: relative;
+        left: 40px;
+        bottom: 250px;
+    }
+
+    .sidenav {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 3;
+        top: 0;
+        right: 480px;
+        background-color: whitesmoke;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+    }
+    
+    .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 55px;
+        margin-left: 50px;
+        text-decoration: none;
+        color: black;
+    }
+
+    .change-background {
+        position: absolute;
+        top: 1000px;
+        margin-left: 0;
+        width: 1500px;
+        height: 2000px;
+        background-color: whitesmoke;
+        z-index: 1;
+    }
+
+    #about-section {
+        position: relative;
+        width: 900px;
+        top: 800px;
+        left: 80px;
+        z-index: 2;
+    }
+
+    .change-background2 {
+        position: absolute;
+        bottom: 3000px;
+        left: 0px;
+        width: 1500px;
+        height: 1000px;
+        z-index: 1;
+    }
+
+    #portfolio-section {
+        position: relative;
+        left: 100px;
+        top: 1200px;
+        z-index: 2;
+        width: 1000px;
+    }
+
+    .crystal-image,
+    .superhero-image,
+    .train-image {
+        width: 250px;
+        height: 450px;
+    }
+
+    .crystal {
+        position: relative;
+        right: 20px;
+    }
+
+    .crystal-repo {
+        position: relative;
+        right: 160px;
+        bottom: 340px;
+    }
+
+    .crystal-image {
+        position: relative;
+        right: 330px;
+    }
+
+    .superhero {
+        position: relative;
+        bottom: 432px;
+        right: 180px;
+    }
+
+    .superhero-repo {
+        position: absolute;
+        bottom: 820px;
+        left: 340px;
+    }
+
+    .superhero-image {
+        position: absolute;
+        left: 270px;
+        bottom: 100px;
+    }
+
+    .train {
+        position: relative;
+        bottom: 475px;
+        right: 220px;
+    }
+
+    .train-repo {
+        position: relative;
+        bottom: 820px;
+        left: 670px;
+    }
+
+    .train-image {
+        position: relative;
+        left: 490px;
+        bottom: 350px;
+    }
+
+    #contact-section {
+        position: relative;
+        top: 1100px;
+        left: 80px;
+        z-index: 2;
+    }
+
+    .links {
+        color: whitesmoke;
+        display: inline;
+        z-index: 2;
+        position: relative;
+        top: 1200px;
+        left: 100px;
+        text-decoration: none;
+        font-family: "Aldrich", sans-serif;
+        padding-right: 30px;
+    }
+   
 }
 
