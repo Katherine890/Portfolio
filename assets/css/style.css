@@ -1350,6 +1350,54 @@ p {
         height: auto 0;
     }
 
+    .W:before {
+        position: absolute;
+        top: 400px;
+        left: 100px;
+    }
+
+    .E:before {
+        position: absolute;
+        top: 400px;
+        left: 200px;
+    }
+    
+    .L:before {
+        position: absolute;
+        top: 400px;
+        left: 270px;
+    }
+
+    .C:before {
+        position: absolute;
+        top: 400px;
+        left: 330px;
+    }
+
+    .O:before {
+        position: absolute;
+        top: 400px;
+        left: 405px;
+    }
+
+    .M:before {
+        position: absolute;
+        top: 400px;
+        left: 480px;
+    }
+    
+    .E2:before {
+        position: absolute;
+        top: 400px;
+        left: 580px;
+    }
+
+    .intro {
+        display: inline;
+        line-height: 50px;
+        position: relative;
+        left: 250px;
+    }
     #main-heading {
         position: absolute;
         top: 20px;
@@ -1358,7 +1406,7 @@ p {
     .nav-button {
         position: relative;
         left: 700px;
-        bottom: 580px;
+        bottom: 500px;
     }
 
     .sidenav {
