@@ -7,8 +7,8 @@
 h1 {
     margin: 250px 0 0 400px;
     padding: 0;
-   /* font-family: "Beyno";
-    src: url("assets/images/BEYNO/BEYNO.otf"); */
+    font-family: "Beyno";
+    src: url("assets/images/BEYNO/BEYNO.otf"); 
     font-size: 5em;
     display: inline;
     line-height: none;
@@ -998,10 +998,8 @@ body {
 #main-heading {
     animation: animate8 4s;  
     opacity: 1;
-   /* font-family: "Beyno";
-    src: url("assets/images/BEYNO/BEYNO.otf"); */
-    font-family: "Azonix";
-    src: url("assets/images/mixofx_azonix/Azonix"); 
+    font-family: "Beyno";
+    src: url("assets/images/BEYNO/BEYNO.otf");
     font-size: 60px;
     color: gray;
     position: relative;
