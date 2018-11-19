@@ -998,8 +998,9 @@ body {
 #main-heading {
     animation: animate8 4s;  
     opacity: 1;
-    font-family: "Beyno";
+    font-family: "Beyno", "Azonix";
     src: url("assets/images/BEYNO/BEYNO.otf");
+    src: url("assets/images/mixofx_azonix/Azonix");
     font-size: 60px;
     color: gray;
     position: relative;
@@ -1162,8 +1163,9 @@ body {
 
 
 .subheading {
-    font-family: "Beyno";
+    font-family: "Beyno", "Azonix";
     src: url("assets/images/BEYNO/BEYNO.otf");
+    src: url("assets/images/mixofx_azonix/Azonix");
     color: gray;
     font-size: 70px;
 }
