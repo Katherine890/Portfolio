@@ -1648,6 +1648,7 @@ p {
     body {
         height: 7000px;
         width: 1500px;
+        overflow-x: hidden;
     }
     .W:before {
         position: absolute;
