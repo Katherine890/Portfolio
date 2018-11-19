@@ -1414,6 +1414,8 @@ p {
     #main-heading {
         position: absolute;
         top: 10px;
+        font-family: "Beyno";
+        src: url("assets/images/BEYNO/BEYNO.otf");
     }
    
     .nav-button {
@@ -1456,6 +1458,8 @@ p {
     .subheading {
         position: relative;
         left: 90px;
+        font-family: "Beyno";
+        src: url("assets/images/BEYNO/BEYNO.otf");
     }
 
     .change-background2 {
@@ -1642,6 +1646,8 @@ p {
     #main-heading {
         position: absolute;
         top: 10px;
+        font-family: "Beyno";
+        src: url("assets/images/BEYNO/BEYNO.otf");
     }
    
     .nav-button {
@@ -1684,6 +1690,8 @@ p {
     .subheading {
         position: relative;
         left: 90px;
+        font-family: "Beyno";
+        src: url("assets/images/BEYNO/BEYNO.otf");
     }
 
     .change-background2 {
@@ -1870,6 +1878,8 @@ p {
     #main-heading {
         position: absolute;
         top: 10px;
+        font-family: "Beyno";
+        src: url("assets/images/BEYNO/BEYNO.otf");
     }
    
     .nav-button {
@@ -1912,6 +1922,8 @@ p {
     .subheading {
         position: relative;
         left: 90px;
+        font-family: "Beyno";
+        src: url("assets/images/BEYNO/BEYNO.otf");
     }
 
     .change-background2 {
