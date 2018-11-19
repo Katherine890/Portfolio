@@ -1,8 +1,8 @@
 /* START INTRO ANIMATION */
 
-.W:before {
+.W::before {
 	content: "3";
-	animation-duration: 3s;
+	animation: animate 3s;
 	position: relative;
 	top: 300px;
 	left: 0;
@@ -119,9 +119,9 @@
 		opacity: 0;
 	}
 }
-.E:before {
+.E::before {
 	content: "9";
-	animation-duration: animate2 3s;
+	animation: animate2 3s;
 	position: relative;
 	top: 209px;
 	left: 50px;
@@ -238,9 +238,9 @@
 		opacity: 0;
 	}
 }
-.L:before {
+.L::before {
 	content: "0";
-	animation-duration: animate3 3s;
+	animation: animate3 3s;
 	position: relative;
 	top: 118px;
 	left: 100px;
@@ -357,9 +357,9 @@
 		opacity: 0;
 	}
 }
-.C:before {
+.C::before {
 	content: "7";
-	animation-duration: animate4 3s;
+	animation: animate4 3s;
 	position: relative;
 	top: 28px;
 	left: 150px;
@@ -476,9 +476,9 @@
 		opacity: 0;
 	}
 }
-.O:before {
+.O::before {
 	content: "2";
-	animation-duration: animate5 3s;
+	animation: animate5 3s;
 	position: relative;
 	bottom: 81px;
 	left: 200px;
@@ -595,9 +595,9 @@
 		opacity: 0;
 	}
 }
-.M:before {
+.M::before {
 	content: "1";
-	animation-duration: animate6 3s;
+	animation: animate6 3s;
 	position: relative;
 	bottom: 171px;
 	left: 250px;
@@ -714,9 +714,9 @@
 		opacity: 0;
 	}
 }
-.E2:before {
+.E2::before {
 	content: "6";
-	animation-duration: animate7 3s;
+	animation: animate7 3s;
 	position: relative;
 	bottom: 260px;
 	left: 300px;
@@ -845,7 +845,7 @@ body {
 /* main heading */
 
 #main-heading {
-	animation-duration: animate8 4s;
+	animation: animate8 4s;
 	opacity: 1;
 	font-family: "Share Tech Mono", monospace;
 	font-size: 60px;
@@ -870,7 +870,7 @@ body {
 /* NAV BAR */
 
 .nav-button {
-	animation-duration: animate9 4s;
+	animation: animate9 4s;
 	opacity: 1;
 	display: inline-block;
 	cursor: default;
