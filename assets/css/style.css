@@ -14,7 +14,7 @@ h1 {
 }
 
 .W:before {
-    content: "W";
+    content: "3";
     animation: animate 3s;
     position: relative;
     top: 300px;
@@ -25,56 +25,56 @@ h1 {
 
 @keyframes animate {
     0% {
-        content: "W";
+        content: "3";
         font-family: "Share Tech Mono", monospace;
         opacity: 1;
     }
     5% {
-        content: "W";
+        content: "3";
         font-family: "Share Tech Mono", monospace;
     }
     30% {
-        content: "W";
+        content: "3";
         font-family: "Share Tech Mono", monospace;
     }
     32% {
-        content: "M";
+        content: "7";
         font-family: "Share Tech Mono", monospace;
     }
     34% {
-        content: "Q";
+        content: "4";
         font-family: "Share Tech Mono", monospace;
     }
     36% {
-        content: "S";
+        content: "9";
         font-family: "Share Tech Mono", monospace;
     }
     38% {
-        content: "B";
+        content: "2";
         font-family: "Share Tech Mono", monospace;
     }
     40% {
-        content: "A";
+        content: "5";
         font-family: "Share Tech Mono", monospace;
     }
     42% {
-        content: "L";
+        content: "1";
         font-family: "Share Tech Mono", monospace;
     }
     44% {
-        content: "F";
+        content: "0";
         font-family: "Share Tech Mono", monospace;
     }
     46% {
-        content: "K";
+        content: "8";
         font-family: "Share Tech Mono", monospace;
     }
     48% {
-        content: "D";
+        content: "5";
         font-family: "Share Tech Mono", monospace;
     }
     50% {
-        content: "B";
+        content: "3";
         font-family: "Share Tech Mono", monospace;
     }
     52% {
@@ -131,7 +131,7 @@ h1 {
 
 
 .E:before {
-    content: "E";
+    content: "9";
     animation: animate2 3s;
     position: relative;
     top: 300px;
@@ -142,56 +142,56 @@ h1 {
 
 @keyframes animate2 {
     0% {
-        content: "E";
+        content: "9";
         font-family: "Share Tech Mono", monospace;
         opacity: 1;
     }
     5% {
-        content: "E";
+        content: "9";
         font-family: "Share Tech Mono", monospace;
     }
     30% {
-        content: "E";
+        content: "9";
         font-family: "Share Tech Mono", monospace;
     }
     32% {
-        content: "S";
+        content: "4";
         font-family: "Share Tech Mono", monospace;
     }
     34% {
-        content: "Q";
+        content: "1";
         font-family: "Share Tech Mono", monospace;
     }
     36% {
-        content: "X";
+        content: "7";
         font-family: "Share Tech Mono", monospace;
     }
     38% {
-        content: "H";
+        content: "8";
         font-family: "Share Tech Mono", monospace;
     }
     40% {
-        content: "F";
+        content: "0";
         font-family: "Share Tech Mono", monospace;
     }
     42% {
-        content: "Y";
+        content: "5";
         font-family: "Share Tech Mono", monospace;
     }
     44% {
-        content: "D";
+        content: "2";
         font-family: "Share Tech Mono", monospace;
     }
     46% {
-        content: "F";
+        content: "6";
         font-family: "Share Tech Mono", monospace;
     }
     48% {
-        content: "P";
+        content: "7";
         font-family: "Share Tech Mono", monospace;
     }
     50% {
-        content: "D";
+        content: "3";
         font-family: "Share Tech Mono", monospace;
     }
     52% {
@@ -246,7 +246,7 @@ h1 {
 }
 
 .L:before {
-    content: "L";
+    content: "0";
     animation: animate3 3s;
     position: relative;
     top: 300px;
@@ -257,56 +257,56 @@ h1 {
 
 @keyframes animate3 {
     0% {
-        content: "L";
+        content: "0";
         font-family: "Share Tech Mono", monospace;
         opacity: 1;
     }
     5% {
-        content: "L";
+        content: "0";
         font-family: "Share Tech Mono", monospace;
     }
     30% {
-        content: "L";
+        content: "0";
         font-family: "Share Tech Mono", monospace;
     }
     32% {
-        content: "X";
+        content: "6";
         font-family: "Share Tech Mono", monospace;
     }
     34% {
-        content: "Y";
+        content: "3";
         font-family: "Share Tech Mono", monospace;
     }
     36% {
-        content: "B";
+        content: "5";
         font-family: "Share Tech Mono", monospace;
     }
     38% {
-        content: "W";
+        content: "1";
         font-family: "Share Tech Mono", monospace;
     }
     40% {
-        content: "C";
+        content: "8";
         font-family: "Share Tech Mono", monospace;
     }
     42% {
-        content: "I";
+        content: "2";
         font-family: "Share Tech Mono", monospace;
     }
     44% {
-        content: "L";
+        content: "7";
         font-family: "Share Tech Mono", monospace;
     }
     46% {
-        content: "G";
+        content: "4";
         font-family: "Share Tech Mono", monospace;
     }
     48% {
-        content: "K";
+        content: "6";
         font-family: "Share Tech Mono", monospace;
     }
     50% {
-        content: "R";
+        content: "9";
         font-family: "Share Tech Mono", monospace;
     }
     52% {
@@ -361,7 +361,7 @@ h1 {
 }
 
 .C:before {
-    content: "C";
+    content: "7";
     animation: animate4 3s;
     position: relative;
     top: 217px;
@@ -372,56 +372,56 @@ h1 {
 
 @keyframes animate4 {
     0% {
-        content: "C";
+        content: "7";
         font-family: "Share Tech Mono", monospace;
         opacity: 1;
     }
     5% {
-        content: "C";
+        content: "7";
         font-family: "Share Tech Mono", monospace;
     }
     30% {
-        content: "C";
+        content: "7";
         font-family: "Share Tech Mono", monospace;
     }
     32% {
-        content: "U";
+        content: "8";
         font-family: "Share Tech Mono", monospace;
     }
     34% {
-        content: "Y";
+        content: "3";
         font-family: "Share Tech Mono", monospace;
     }
     36% {
-        content: "P";
+        content: "1";
         font-family: "Share Tech Mono", monospace;
     }
     38% {
-        content: "R";
+        content: "4";
         font-family: "Share Tech Mono", monospace;
     }
     40% {
-        content: "M";
+        content: "8";
         font-family: "Share Tech Mono", monospace;
     }
     42% {
-        content: "D";
+        content: "1";
         font-family: "Share Tech Mono", monospace;
     }
     44% {
-        content: "X";
+        content: "9";
         font-family: "Share Tech Mono", monospace;
     }
     46% {
-        content: "J";
+        content: "3";
         font-family: "Share Tech Mono", monospace;
     }
     48% {
-        content: "F";
+        content: "1";
         font-family: "Share Tech Mono", monospace;
     }
     50% {
-        content: "I";
+        content: "6";
         font-family: "Share Tech Mono", monospace;
     }
     52% {
@@ -476,7 +476,7 @@ h1 {
 }
 
 .O:before {
-    content: "O";
+    content: "2";
     animation: animate5 3s;
     position: relative;
     top: 217px;
@@ -487,56 +487,56 @@ h1 {
 
 @keyframes animate5 {
     0% {
-        content: "O";
+        content: "2";
         font-family: "Share Tech Mono", monospace;
         opacity: 1;
     }
     5% {
-        content: "O";
+        content: "2";
         font-family: "Share Tech Mono", monospace;
     }
     30% {
-        content: "O";
+        content: "2";
         font-family: "Share Tech Mono", monospace;
     }
     32% {
-        content: "X";
+        content: "8";
         font-family: "Share Tech Mono", monospace;
     }
     34% {
-        content: "D";
+        content: "4";
         font-family: "Share Tech Mono", monospace;
     }
     36% {
-        content: "J";
+        content: "7";
         font-family: "Share Tech Mono", monospace;
     }
     38% {
-        content: "W";
+        content: "3";
         font-family: "Share Tech Mono", monospace;
     }
     40% {
-        content: "Z";
+        content: "5";
         font-family: "Share Tech Mono", monospace;
     }
     42% {
-        content: "Q";
+        content: "4";
         font-family: "Share Tech Mono", monospace;
     }
     44% {
-        content: "S";
+        content: "9";
         font-family: "Share Tech Mono", monospace;
     }
     46% {
-        content: "O";
+        content: "6";
         font-family: "Share Tech Mono", monospace;
     }
     48% {
-        content: "L";
+        content: "5";
         font-family: "Share Tech Mono", monospace;
     }
     50% {
-        content: "G";
+        content: "1";
         font-family: "Share Tech Mono", monospace;
     }
     52% {
@@ -591,7 +591,7 @@ h1 {
 }
 
 .M:before {
-    content: "M";
+    content: "1";
     animation: animate6 3s;
     position: relative;
     top: 217px;
@@ -602,56 +602,56 @@ h1 {
 
 @keyframes animate6 {
     0% {
-        content: "M";
+        content: "1";
         font-family: "Share Tech Mono", monospace;
         opacity: 1;
     }
     5% {
-        content: "M";
+        content: "1";
         font-family: "Share Tech Mono", monospace;
     }
     30% {
-        content: "M";
+        content: "1";
         font-family: "Share Tech Mono", monospace;
     }
     32% {
-        content: "Y";
+        content: "6";
         font-family: "Share Tech Mono", monospace;
     }
     34% {
-        content: "N";
+        content: "4";
         font-family: "Share Tech Mono", monospace;
     }
     36% {
-        content: "P";
+        content: "9";
         font-family: "Share Tech Mono", monospace;
     }
     38% {
-        content: "C";
+        content: "5";
         font-family: "Share Tech Mono", monospace;
     }
     40% {
-        content: "T";
+        content: "0";
         font-family: "Share Tech Mono", monospace;
     }
     42% {
-        content: "K";
+        content: "3";
         font-family: "Share Tech Mono", monospace;
     }
     44% {
-        content: "F";
+        content: "6";
         font-family: "Share Tech Mono", monospace;
     }
     46% {
-        content: "W";
+        content: "8";
         font-family: "Share Tech Mono", monospace;
     }
     48% {
-        content: "S";
+        content: "4";
         font-family: "Share Tech Mono", monospace;
     }
     50% {
-        content: "H";
+        content: "3";
         font-family: "Share Tech Mono", monospace;
     }
     52% {
@@ -706,7 +706,7 @@ h1 {
 }
 
 .E2:before {
-    content: "E";
+    content: "6";
     animation: animate7 3s;
     position: relative;
     top: 133px;
@@ -717,56 +717,56 @@ h1 {
 
 @keyframes animate7 {
     0% {
-        content: "E";
+        content: "6";
         font-family: "Share Tech Mono", monospace;
         opacity: 1;
     }
     5% {
-        content: "E";
+        content: "6";
         font-family: "Share Tech Mono", monospace;
     }
     30% {
-        content: "E";
+        content: "6";
         font-family: "Share Tech Mono", monospace;
     }
     32% {
-        content: "Y";
+        content: "7";
         font-family: "Share Tech Mono", monospace;
     }
     34% {
-        content: "N";
+        content: "0";
         font-family: "Share Tech Mono", monospace;
     }
     36% {
-        content: "P";
+        content: "4";
         font-family: "Share Tech Mono", monospace;
     }
     38% {
-        content: "C";
+        content: "2";
         font-family: "Share Tech Mono", monospace;
     }
     40% {
-        content: "T";
+        content: "7";
         font-family: "Share Tech Mono", monospace;
     }
     42% {
-        content: "K";
+        content: "1";
         font-family: "Share Tech Mono", monospace;
     }
     44% {
-        content: "F";
+        content: "4";
         font-family: "Share Tech Mono", monospace;
     }
     46% {
-        content: "W";
+        content: "3";
         font-family: "Share Tech Mono", monospace;
     }
     48% {
-        content: "S";
+        content: "6";
         font-family: "Share Tech Mono", monospace;
     }
     50% {
-        content: "H";
+        content: "0";
         font-family: "Share Tech Mono", monospace;
     }
     52% {
@@ -1646,75 +1646,77 @@ p {
     }
 
     body {
-        height: 4300px;
+        height: 7000px;
+        width: 100%;
     }
     .W:before {
         position: absolute;
         top: 400px;
         left: 100px;
-        font-size: 50px;
+        font-size: 80px;
     }
 
     .E:before {
         position: absolute;
         top: 400px;
-        left: 160px;
-        font-size: 50px;
+        left: 150px;
+        font-size: 80px;
     }
 
     .L:before {
         position: absolute;
         top: 400px;
         left: 200px;
-        font-size: 50px;
+        font-size: 80px;
     }
 
     .C:before {
         position: absolute;
         top: 400px;
-        left: 230px;
-        font-size: 50px;
+        left: 250px;
+        font-size: 80px;
     }
 
     .O:before {
         position: absolute;
         top: 400px;
-        left: 270px;
-        font-size: 50px;
+        left: 300px;
+        font-size: 80px;
     }
 
     .M:before {
         position: absolute;
         top: 400px;
-        left: 320px;
-        font-size: 50px;
+        left: 350px;
+        font-size: 80px;
     }
 
     .E2:before {
         position: absolute;
         top: 400px;
-        left: 380px;
-        font-size: 50px;
+        left: 400px;
+        font-size: 80px;
     }
    
     .intro {
         display: inline;
         line-height: 10px;
         position: relative;
-        left: 50px;
-        bottom: 30px;
+        left: 330px;
+        top: 200px;
     }
 
     #main-heading {
         position: absolute;
         top: 10px;
         font-family: "Share Tech Mono", monospace;
+        font-size: 80px;
     }
    
     .nav-button {
         position: relative;
-        left: 1px;
-        bottom: 290px;
+        right: 30px;
+        bottom: 200px;
     }
 
     .sidenav {
@@ -1723,7 +1725,7 @@ p {
         position: fixed;
         z-index: 3;
         top: 0;
-        right: 580px;
+        right: 280px;
         background-color: whitesmoke;
         overflow-x: hidden;
         transition: 0.5s;
@@ -1732,9 +1734,10 @@ p {
 
     .change-background {
         position: absolute;
-        top: 1000px;
+        top: 1500px;
+        left: 0;
         margin-left: 0;
-        width: 100%;
+        width: 1500px;
         height: 2000px;
         background-color: whitesmoke;
         z-index: 1;
@@ -1742,9 +1745,9 @@ p {
 
     #about-section {
         position: relative;
-        width: 600px;
-        top: 700px;
-        left: 10px;
+        width: 1000px;
+        top: 1300px;
+        left: 100px;
         z-index: 2;
     }
 
@@ -1752,29 +1755,35 @@ p {
         position: relative;
         left: 90px;
         font-family: "Share Tech Mono", monospace;
+        font-size: 80px;
+    }
+
+    p {
+        font-size: 30px;
     }
 
     .change-background2 {
         position: absolute;
-        bottom: 3000px;
+        top: 3000px;
         left: 0px;
-        width: 100%;
-        height: 1200px;
+        width: 1500px;
+        height: 2000px;
         z-index: 1;
     }
 
     #portfolio-section {
         position: relative;
-        left: 210px;
-        top: 1000px;
+        left: 350px;
+        top: 2000px;
         z-index: 2;
         width: 1000px;
     }
 
     .subheading2 {
         position: relative;
-        right: 105px;
+        left: 20px;
         top: 100px;
+        font-size: 80px;
     }
 
     .crystal-image,
@@ -1786,87 +1795,87 @@ p {
 
     .crystal {
         position: relative;
-        right: 150px;
+        right: 110px;
         top: 100px;
     }
 
     .crystal-repo {
         position: relative;
         right: 300px;
-        bottom: 50px;
+        bottom: 0;
     }
 
     .crystal-image {
         position: relative;
         right: 400px;
-        top: 260px;
+        top: 270px;
     }
 
     .superhero {
         position: relative;
-        bottom: 365px;
-        right: 500px;
+        bottom: 172px;
+        right: 30px;
     }
 
     #superhero-search {
         position: relative;
-        bottom: 0px;
-        right: 150px;
+        bottom: 172px;
+        right: 30px;
     }
 
     .superhero-repo {
         position: relative;
-        bottom: 300px;
-        left: 0px;
+        bottom: 255px;
+        left: 70px;
     }
 
     .superhero-image {
         position: relative;
-        right: 110px;
-        top: 0px;
+        right: 30px;
+        top: 20px;
         z-index: 3;
     }
 
     .train {
         position: relative;
-        top: 100px;
-        right: 860px;
+        bottom: 300px;
+        right: 700px;
     }
 
     #traintime {
         position: relative;
-        right: 200px;
-        bottom: 50px;
+        bottom: 300px;
+        right: 700px;
     }
     .train-repo {
-        position: absolute;
-        left: 30px;
-        bottom: 50px;
+        position: relative;
+        left: 160px;
+        bottom: 10px;
     }
 
     .train-image {
         position: relative;
-        left: 30px;
-        top: 250px;
+        left: 50px;
+        bottom: 2300px;
     }
 
     #contact-section {
         position: relative;
-        top: 1400px;
-        left: 1px;
+        top: 3200px;
+        left: 100px;
         width: 550px;
         z-index: 2;
     }
 
     input,
     textarea {
-    width: 550px;
+    width: 800px;
     }
 
     .links {
         position: relative;
-        top: 1500px;
-        left: 20px;
+        top: 3300px;
+        left: 70px;
     }
 }
 
