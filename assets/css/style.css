@@ -1,1934 +1,1745 @@
-/*html {
-    background-color: black;
-}*/
-
 /* START INTRO ANIMATION */
 
-h1 {
-    margin: 250px 0 0 400px;
-    padding: 0;
-    font-family: "Share Tech Mono", monospace;
-    font-size: 5em;
-    display: inline;
-    line-height: none;
-}
-
 .W:before {
-    content: "3";
-    animation: animate 3s;
-    position: relative;
-    top: 300px;
-    left: 10px;
-    color: whitesmoke;
-    opacity: 0;
-    margin: 250px 0 0 400px;
-    padding: 0;
-    font-family: "Share Tech Mono", monospace;
-    font-size: 5em;
-    display: inline;
-    line-height: none;
+	content: "3";
+	animation: animate 3s;
+	position: relative;
+	top: 300px;
+	left: 0;
+	color: whitesmoke;
+	opacity: 0;
+	margin: 250px 0 0 400px;
+	padding: 0;
+	font-family: "Share Tech Mono", monospace;
+	font-size: 5em;
+	display: inline;
+	line-height: none;
 }
-
 @keyframes animate {
-    0% {
-        content: "3";
-        font-family: "Share Tech Mono", monospace;
-        opacity: 1;
-    }
-    5% {
-        content: "3";
-        font-family: "Share Tech Mono", monospace;
-    }
-    30% {
-        content: "3";
-        font-family: "Share Tech Mono", monospace;
-    }
-    32% {
-        content: "7";
-        font-family: "Share Tech Mono", monospace;
-    }
-    34% {
-        content: "4";
-        font-family: "Share Tech Mono", monospace;
-    }
-    36% {
-        content: "9";
-        font-family: "Share Tech Mono", monospace;
-    }
-    38% {
-        content: "2";
-        font-family: "Share Tech Mono", monospace;
-    }
-    40% {
-        content: "5";
-        font-family: "Share Tech Mono", monospace;
-    }
-    42% {
-        content: "1";
-        font-family: "Share Tech Mono", monospace;
-    }
-    44% {
-        content: "0";
-        font-family: "Share Tech Mono", monospace;
-    }
-    46% {
-        content: "8";
-        font-family: "Share Tech Mono", monospace;
-    }
-    48% {
-        content: "5";
-        font-family: "Share Tech Mono", monospace;
-    }
-    50% {
-        content: "3";
-        font-family: "Share Tech Mono", monospace;
-    }
-    52% {
-        content: "W";
-        font-family: "Share Tech Mono", monospace;
-    }
-    80% {
-        content: "W";
-        font-family: "Share Tech Mono", monospace;
-        opacity: 1;
-    }
-    83% {
-        content: "W";
-        font-family: "Share Tech Mono", monospace;
-        opacity: 0.87;
-    }
-    85% {
-        content: "W";
-        font-family: "Share Tech Mono", monospace;
-        opacity: 0.75;
-    }
-    88% {
-        content: "W";
-        font-family: "Share Tech Mono", monospace;
-        opacity: 0.65;
-    }
-    90% {
-        content: "W";
-        font-family: "Share Tech Mono", monospace;
-        opacity: 0.5
-    }
-    92% {
-        content: "W";
-        font-family: "Share Tech Mono", monospace;
-        opacity: 0.3;
-    }
-    95% {
-        content: "W";
-        font-family: "Share Tech Mono", monospace;
-        opacity: 0.25;
-    }
-    97% {
-        content: "W";
-        font-family: "Share Tech Mono", monospace;
-        opacity: 0.1;
-    }
-    100% {
-        content: "W";
-        font-family: "Share Tech Mono", monospace;
-        opacity: 0;
-    }
-    
+	0% {
+		content: "3";
+		font-family: "Share Tech Mono", monospace;
+		opacity: 1;
+	}
+	5% {
+		content: "3";
+		font-family: "Share Tech Mono", monospace;
+	}
+	30% {
+		content: "3";
+		font-family: "Share Tech Mono", monospace;
+	}
+	32% {
+		content: "7";
+		font-family: "Share Tech Mono", monospace;
+	}
+	34% {
+		content: "4";
+		font-family: "Share Tech Mono", monospace;
+	}
+	36% {
+		content: "9";
+		font-family: "Share Tech Mono", monospace;
+	}
+	38% {
+		content: "2";
+		font-family: "Share Tech Mono", monospace;
+	}
+	40% {
+		content: "5";
+		font-family: "Share Tech Mono", monospace;
+	}
+	42% {
+		content: "1";
+		font-family: "Share Tech Mono", monospace;
+	}
+	44% {
+		content: "0";
+		font-family: "Share Tech Mono", monospace;
+	}
+	46% {
+		content: "8";
+		font-family: "Share Tech Mono", monospace;
+	}
+	48% {
+		content: "5";
+		font-family: "Share Tech Mono", monospace;
+	}
+	50% {
+		content: "3";
+		font-family: "Share Tech Mono", monospace;
+	}
+	52% {
+		content: "W";
+		font-family: "Share Tech Mono", monospace;
+	}
+	80% {
+		content: "W";
+		font-family: "Share Tech Mono", monospace;
+		opacity: 1;
+	}
+	83% {
+		content: "W";
+		font-family: "Share Tech Mono", monospace;
+		opacity: 0.87;
+	}
+	85% {
+		content: "W";
+		font-family: "Share Tech Mono", monospace;
+		opacity: 0.75;
+	}
+	88% {
+		content: "W";
+		font-family: "Share Tech Mono", monospace;
+		opacity: 0.65;
+	}
+	90% {
+		content: "W";
+		font-family: "Share Tech Mono", monospace;
+		opacity: 0.5
+	}
+	92% {
+		content: "W";
+		font-family: "Share Tech Mono", monospace;
+		opacity: 0.3;
+	}
+	95% {
+		content: "W";
+		font-family: "Share Tech Mono", monospace;
+		opacity: 0.25;
+	}
+	97% {
+		content: "W";
+		font-family: "Share Tech Mono", monospace;
+		opacity: 0.1;
+	}
+	100% {
+		content: "W";
+		font-family: "Share Tech Mono", monospace;
+		opacity: 0;
+	}
 }
-
-
 .E:before {
-    content: "9";
-    animation: animate2 3s;
-    position: relative;
-    top: 300px;
-    right: 390px;
-    color: whitesmoke;
-    opacity: 0;
-    margin: 250px 0 0 400px;
-    padding: 0;
-    font-family: "Share Tech Mono", monospace;
-    font-size: 5em;
-    display: inline;
-    line-height: none;
+	content: "9";
+	animation: animate2 3s;
+	position: relative;
+	top: 209px;
+	left: 50px;
+	color: whitesmoke;
+	opacity: 0;
+	margin: 250px 0 0 400px;
+	padding: 0;
+	font-family: "Share Tech Mono", monospace;
+	font-size: 5em;
+	display: inline;
+	line-height: none;
 }
-
 @keyframes animate2 {
-    0% {
-        content: "9";
-        font-family: "Share Tech Mono", monospace;
-        opacity: 1;
-    }
-    5% {
-        content: "9";
-        font-family: "Share Tech Mono", monospace;
-    }
-    30% {
-        content: "9";
-        font-family: "Share Tech Mono", monospace;
-    }
-    32% {
-        content: "4";
-        font-family: "Share Tech Mono", monospace;
-    }
-    34% {
-        content: "1";
-        font-family: "Share Tech Mono", monospace;
-    }
-    36% {
-        content: "7";
-        font-family: "Share Tech Mono", monospace;
-    }
-    38% {
-        content: "8";
-        font-family: "Share Tech Mono", monospace;
-    }
-    40% {
-        content: "0";
-        font-family: "Share Tech Mono", monospace;
-    }
-    42% {
-        content: "5";
-        font-family: "Share Tech Mono", monospace;
-    }
-    44% {
-        content: "2";
-        font-family: "Share Tech Mono", monospace;
-    }
-    46% {
-        content: "6";
-        font-family: "Share Tech Mono", monospace;
-    }
-    48% {
-        content: "7";
-        font-family: "Share Tech Mono", monospace;
-    }
-    50% {
-        content: "3";
-        font-family: "Share Tech Mono", monospace;
-    }
-    52% {
-        content: "E";
-        font-family: "Share Tech Mono", monospace;
-    }
-    80% {
-        content: "E";
-        font-family: "Share Tech Mono", monospace;
-        opacity: 1;
-    }
-    83% {
-        content: "E";
-        font-family: "Share Tech Mono", monospace;
-        opacity: 0.87;
-    }
-    85% {
-        content: "E";
-        font-family: "Share Tech Mono", monospace;
-        opacity: 0.75;
-    }
-    88% {
-        content: "E";
-        font-family: "Share Tech Mono", monospace;
-        opacity: 0.65;
-    }
-    90% {
-        content: "E";
-        font-family: "Share Tech Mono", monospace;
-        opacity: 0.5;
-    }
-    92% {
-        content: "E";
-        font-family: "Share Tech Mono", monospace;
-        opacity: 0.35
-    }
-    95% {
-        content: "E";
-        font-family: "Share Tech Mono", monospace;
-        opacity: 0.25; 
-    }
-    97% {
-        content: "E";
-        font-family: "Share Tech Mono", monospace;
-        opacity: 0.1;
-    }
-    100% {
-        content: "E";
-        font-family: "Share Tech Mono", monospace;
-        opacity: 0;
-    }
+	0% {
+		content: "9";
+		font-family: "Share Tech Mono", monospace;
+		opacity: 1;
+	}
+	5% {
+		content: "9";
+		font-family: "Share Tech Mono", monospace;
+	}
+	30% {
+		content: "9";
+		font-family: "Share Tech Mono", monospace;
+	}
+	32% {
+		content: "4";
+		font-family: "Share Tech Mono", monospace;
+	}
+	34% {
+		content: "1";
+		font-family: "Share Tech Mono", monospace;
+	}
+	36% {
+		content: "7";
+		font-family: "Share Tech Mono", monospace;
+	}
+	38% {
+		content: "8";
+		font-family: "Share Tech Mono", monospace;
+	}
+	40% {
+		content: "0";
+		font-family: "Share Tech Mono", monospace;
+	}
+	42% {
+		content: "5";
+		font-family: "Share Tech Mono", monospace;
+	}
+	44% {
+		content: "2";
+		font-family: "Share Tech Mono", monospace;
+	}
+	46% {
+		content: "6";
+		font-family: "Share Tech Mono", monospace;
+	}
+	48% {
+		content: "7";
+		font-family: "Share Tech Mono", monospace;
+	}
+	50% {
+		content: "3";
+		font-family: "Share Tech Mono", monospace;
+	}
+	52% {
+		content: "E";
+		font-family: "Share Tech Mono", monospace;
+	}
+	80% {
+		content: "E";
+		font-family: "Share Tech Mono", monospace;
+		opacity: 1;
+	}
+	83% {
+		content: "E";
+		font-family: "Share Tech Mono", monospace;
+		opacity: 0.87;
+	}
+	85% {
+		content: "E";
+		font-family: "Share Tech Mono", monospace;
+		opacity: 0.75;
+	}
+	88% {
+		content: "E";
+		font-family: "Share Tech Mono", monospace;
+		opacity: 0.65;
+	}
+	90% {
+		content: "E";
+		font-family: "Share Tech Mono", monospace;
+		opacity: 0.5;
+	}
+	92% {
+		content: "E";
+		font-family: "Share Tech Mono", monospace;
+		opacity: 0.35
+	}
+	95% {
+		content: "E";
+		font-family: "Share Tech Mono", monospace;
+		opacity: 0.25;
+	}
+	97% {
+		content: "E";
+		font-family: "Share Tech Mono", monospace;
+		opacity: 0.1;
+	}
+	100% {
+		content: "E";
+		font-family: "Share Tech Mono", monospace;
+		opacity: 0;
+	}
 }
-
 .L:before {
-    content: "0";
-    animation: animate3 3s;
-    position: relative;
-    top: 300px;
-    right: 780px;
-    color: whitesmoke;
-    opacity: 0;
-    margin: 250px 0 0 400px;
-    padding: 0;
-    font-family: "Share Tech Mono", monospace;
-    font-size: 5em;
-    display: inline;
-    line-height: none;
+	content: "0";
+	animation: animate3 3s;
+	position: relative;
+	top: 118px;
+	left: 100px;
+	color: whitesmoke;
+	opacity: 0;
+	margin: 250px 0 0 400px;
+	padding: 0;
+	font-family: "Share Tech Mono", monospace;
+	font-size: 5em;
+	display: inline;
+	line-height: none;
 }
-
 @keyframes animate3 {
-    0% {
-        content: "0";
-        font-family: "Share Tech Mono", monospace;
-        opacity: 1;
-    }
-    5% {
-        content: "0";
-        font-family: "Share Tech Mono", monospace;
-    }
-    30% {
-        content: "0";
-        font-family: "Share Tech Mono", monospace;
-    }
-    32% {
-        content: "6";
-        font-family: "Share Tech Mono", monospace;
-    }
-    34% {
-        content: "3";
-        font-family: "Share Tech Mono", monospace;
-    }
-    36% {
-        content: "5";
-        font-family: "Share Tech Mono", monospace;
-    }
-    38% {
-        content: "1";
-        font-family: "Share Tech Mono", monospace;
-    }
-    40% {
-        content: "8";
-        font-family: "Share Tech Mono", monospace;
-    }
-    42% {
-        content: "2";
-        font-family: "Share Tech Mono", monospace;
-    }
-    44% {
-        content: "7";
-        font-family: "Share Tech Mono", monospace;
-    }
-    46% {
-        content: "4";
-        font-family: "Share Tech Mono", monospace;
-    }
-    48% {
-        content: "6";
-        font-family: "Share Tech Mono", monospace;
-    }
-    50% {
-        content: "9";
-        font-family: "Share Tech Mono", monospace;
-    }
-    52% {
-        content: "L";
-        font-family: "Share Tech Mono", monospace;
-    }
-    80% {
-        content: "L";
-        font-family: "Share Tech Mono", monospace;
-        opacity: 1;
-    }
-    83% {
-        content: "L";
-        font-family: "Share Tech Mono", monospace;
-        opacity: 0.87;
-    }
-    85% {
-        content: "L";
-        font-family: "Share Tech Mono", monospace;
-        opacity: 0.75;
-    }
-    88% {
-        content: "L";
-        font-family: "Share Tech Mono", monospace;
-        opacity: 0.65;
-    }
-    90% {
-        content: "L";
-        font-family: "Share Tech Mono", monospace;
-        opacity: 0.5;
-    }
-    92% {
-        content: "L";
-        font-family: "Share Tech Mono", monospace;
-        opacity: 0.35
-    }
-    95% {
-        content: "L";
-        font-family: "Share Tech Mono", monospace;
-        opacity: 0.25;
-    }
-    97% {
-        content: "L";
-        font-family: "Share Tech Mono", monospace;
-        opacity: 0.1;
-    }
-    100% {
-        content: "L";
-        font-family: "Share Tech Mono", monospace;
-        opacity: 0;
-    }
+	0% {
+		content: "0";
+		font-family: "Share Tech Mono", monospace;
+		opacity: 1;
+	}
+	5% {
+		content: "0";
+		font-family: "Share Tech Mono", monospace;
+	}
+	30% {
+		content: "0";
+		font-family: "Share Tech Mono", monospace;
+	}
+	32% {
+		content: "6";
+		font-family: "Share Tech Mono", monospace;
+	}
+	34% {
+		content: "3";
+		font-family: "Share Tech Mono", monospace;
+	}
+	36% {
+		content: "5";
+		font-family: "Share Tech Mono", monospace;
+	}
+	38% {
+		content: "1";
+		font-family: "Share Tech Mono", monospace;
+	}
+	40% {
+		content: "8";
+		font-family: "Share Tech Mono", monospace;
+	}
+	42% {
+		content: "2";
+		font-family: "Share Tech Mono", monospace;
+	}
+	44% {
+		content: "7";
+		font-family: "Share Tech Mono", monospace;
+	}
+	46% {
+		content: "4";
+		font-family: "Share Tech Mono", monospace;
+	}
+	48% {
+		content: "6";
+		font-family: "Share Tech Mono", monospace;
+	}
+	50% {
+		content: "9";
+		font-family: "Share Tech Mono", monospace;
+	}
+	52% {
+		content: "L";
+		font-family: "Share Tech Mono", monospace;
+	}
+	80% {
+		content: "L";
+		font-family: "Share Tech Mono", monospace;
+		opacity: 1;
+	}
+	83% {
+		content: "L";
+		font-family: "Share Tech Mono", monospace;
+		opacity: 0.87;
+	}
+	85% {
+		content: "L";
+		font-family: "Share Tech Mono", monospace;
+		opacity: 0.75;
+	}
+	88% {
+		content: "L";
+		font-family: "Share Tech Mono", monospace;
+		opacity: 0.65;
+	}
+	90% {
+		content: "L";
+		font-family: "Share Tech Mono", monospace;
+		opacity: 0.5;
+	}
+	92% {
+		content: "L";
+		font-family: "Share Tech Mono", monospace;
+		opacity: 0.35
+	}
+	95% {
+		content: "L";
+		font-family: "Share Tech Mono", monospace;
+		opacity: 0.25;
+	}
+	97% {
+		content: "L";
+		font-family: "Share Tech Mono", monospace;
+		opacity: 0.1;
+	}
+	100% {
+		content: "L";
+		font-family: "Share Tech Mono", monospace;
+		opacity: 0;
+	}
 }
-
 .C:before {
-    content: "7";
-    animation: animate4 3s;
-    position: relative;
-    top: 210px;
-    left: 165px;
-    color: whitesmoke;
-    opacity: 0;
-    margin: 250px 0 0 400px;
-    padding: 0;
-    font-family: "Share Tech Mono", monospace;
-    font-size: 5em;
-    display: inline;
-    line-height: none;
+	content: "7";
+	animation: animate4 3s;
+	position: relative;
+	top: 28px;
+	left: 150px;
+	color: whitesmoke;
+	opacity: 0;
+	margin: 250px 0 0 400px;
+	padding: 0;
+	font-family: "Share Tech Mono", monospace;
+	font-size: 5em;
+	display: inline;
+	line-height: none;
 }
-
 @keyframes animate4 {
-    0% {
-        content: "7";
-        font-family: "Share Tech Mono", monospace;
-        opacity: 1;
-    }
-    5% {
-        content: "7";
-        font-family: "Share Tech Mono", monospace;
-    }
-    30% {
-        content: "7";
-        font-family: "Share Tech Mono", monospace;
-    }
-    32% {
-        content: "8";
-        font-family: "Share Tech Mono", monospace;
-    }
-    34% {
-        content: "3";
-        font-family: "Share Tech Mono", monospace;
-    }
-    36% {
-        content: "1";
-        font-family: "Share Tech Mono", monospace;
-    }
-    38% {
-        content: "4";
-        font-family: "Share Tech Mono", monospace;
-    }
-    40% {
-        content: "8";
-        font-family: "Share Tech Mono", monospace;
-    }
-    42% {
-        content: "1";
-        font-family: "Share Tech Mono", monospace;
-    }
-    44% {
-        content: "9";
-        font-family: "Share Tech Mono", monospace;
-    }
-    46% {
-        content: "3";
-        font-family: "Share Tech Mono", monospace;
-    }
-    48% {
-        content: "1";
-        font-family: "Share Tech Mono", monospace;
-    }
-    50% {
-        content: "6";
-        font-family: "Share Tech Mono", monospace;
-    }
-    52% {
-        content: "C";
-        font-family: "Share Tech Mono", monospace;
-    }
-    80% {
-        content: "C";
-        font-family: "Share Tech Mono", monospace;
-        opacity: 1;
-    }
-    83% {
-        content: "C";
-        font-family: "Share Tech Mono", monospace;
-        opacity: 0.87;
-    }
-    85% {
-        content: "C";
-        font-family: "Share Tech Mono", monospace;
-        opacity: 0.75;
-    }
-    88% {
-        content: "C";
-        font-family: "Share Tech Mono", monospace;
-        opacity: 0.65;
-    }
-    90% {
-        content: "C";
-        font-family: "Share Tech Mono", monospace;
-        opacity: 0.5;
-    }
-    92% {
-        content: "C";
-        font-family: "Share Tech Mono", monospace;
-        opacity: 0.35
-    }
-    95% {
-        content: "C";
-        font-family: "Share Tech Mono", monospace;
-        opacity: 0.25;
-    }
-    97% {
-        content: "C";
-        font-family: "Share Tech Mono", monospace;
-        opacity: 0.1;
-    }
-    100% {
-        content: "C";
-        font-family: "Share Tech Mono", monospace;
-        opacity: 0;
-    }
+	0% {
+		content: "7";
+		font-family: "Share Tech Mono", monospace;
+		opacity: 1;
+	}
+	5% {
+		content: "7";
+		font-family: "Share Tech Mono", monospace;
+	}
+	30% {
+		content: "7";
+		font-family: "Share Tech Mono", monospace;
+	}
+	32% {
+		content: "8";
+		font-family: "Share Tech Mono", monospace;
+	}
+	34% {
+		content: "3";
+		font-family: "Share Tech Mono", monospace;
+	}
+	36% {
+		content: "1";
+		font-family: "Share Tech Mono", monospace;
+	}
+	38% {
+		content: "4";
+		font-family: "Share Tech Mono", monospace;
+	}
+	40% {
+		content: "8";
+		font-family: "Share Tech Mono", monospace;
+	}
+	42% {
+		content: "1";
+		font-family: "Share Tech Mono", monospace;
+	}
+	44% {
+		content: "9";
+		font-family: "Share Tech Mono", monospace;
+	}
+	46% {
+		content: "3";
+		font-family: "Share Tech Mono", monospace;
+	}
+	48% {
+		content: "1";
+		font-family: "Share Tech Mono", monospace;
+	}
+	50% {
+		content: "6";
+		font-family: "Share Tech Mono", monospace;
+	}
+	52% {
+		content: "C";
+		font-family: "Share Tech Mono", monospace;
+	}
+	80% {
+		content: "C";
+		font-family: "Share Tech Mono", monospace;
+		opacity: 1;
+	}
+	83% {
+		content: "C";
+		font-family: "Share Tech Mono", monospace;
+		opacity: 0.87;
+	}
+	85% {
+		content: "C";
+		font-family: "Share Tech Mono", monospace;
+		opacity: 0.75;
+	}
+	88% {
+		content: "C";
+		font-family: "Share Tech Mono", monospace;
+		opacity: 0.65;
+	}
+	90% {
+		content: "C";
+		font-family: "Share Tech Mono", monospace;
+		opacity: 0.5;
+	}
+	92% {
+		content: "C";
+		font-family: "Share Tech Mono", monospace;
+		opacity: 0.35
+	}
+	95% {
+		content: "C";
+		font-family: "Share Tech Mono", monospace;
+		opacity: 0.25;
+	}
+	97% {
+		content: "C";
+		font-family: "Share Tech Mono", monospace;
+		opacity: 0.1;
+	}
+	100% {
+		content: "C";
+		font-family: "Share Tech Mono", monospace;
+		opacity: 0;
+	}
 }
-
 .O:before {
-    content: "2";
-    animation: animate5 3s;
-    position: relative;
-    top: 210px;
-    right: 230px;
-    color: whitesmoke;
-    opacity: 0;
-    margin: 250px 0 0 400px;
-    padding: 0;
-    font-family: "Share Tech Mono", monospace;
-    font-size: 5em;
-    display: inline;
-    line-height: none;
+	content: "2";
+	animation: animate5 3s;
+	position: relative;
+	bottom: 81px;
+	left: 200px;
+	color: whitesmoke;
+	opacity: 0;
+	margin: 250px 0 0 400px;
+	padding: 0;
+	font-family: "Share Tech Mono", monospace;
+	font-size: 5em;
+	display: inline;
+	line-height: none;
 }
-
 @keyframes animate5 {
-    0% {
-        content: "2";
-        font-family: "Share Tech Mono", monospace;
-        opacity: 1;
-    }
-    5% {
-        content: "2";
-        font-family: "Share Tech Mono", monospace;
-    }
-    30% {
-        content: "2";
-        font-family: "Share Tech Mono", monospace;
-    }
-    32% {
-        content: "8";
-        font-family: "Share Tech Mono", monospace;
-    }
-    34% {
-        content: "4";
-        font-family: "Share Tech Mono", monospace;
-    }
-    36% {
-        content: "7";
-        font-family: "Share Tech Mono", monospace;
-    }
-    38% {
-        content: "3";
-        font-family: "Share Tech Mono", monospace;
-    }
-    40% {
-        content: "5";
-        font-family: "Share Tech Mono", monospace;
-    }
-    42% {
-        content: "4";
-        font-family: "Share Tech Mono", monospace;
-    }
-    44% {
-        content: "9";
-        font-family: "Share Tech Mono", monospace;
-    }
-    46% {
-        content: "6";
-        font-family: "Share Tech Mono", monospace;
-    }
-    48% {
-        content: "5";
-        font-family: "Share Tech Mono", monospace;
-    }
-    50% {
-        content: "1";
-        font-family: "Share Tech Mono", monospace;
-    }
-    52% {
-        content: "O";
-        font-family: "Share Tech Mono", monospace;
-    }
-    80% {
-        content: "O";
-        font-family: "Share Tech Mono", monospace;
-        opacity: 1;
-    }
-    83% {
-        content: "O";
-        font-family: "Share Tech Mono", monospace;
-        opacity: 0.87;
-    }
-    85% {
-        content: "O";
-        font-family: "Share Tech Mono", monospace;
-        opacity: 0.75;
-    }
-    88% {
-        content: "O";
-        font-family: "Share Tech Mono", monospace;
-        opacity: 0.65;
-    }
-    90% {
-        content: "O";
-        font-family: "Share Tech Mono", monospace;
-        opacity: 0.5;
-    }
-    92% {
-        content: "O";
-        font-family: "Share Tech Mono", monospace;
-        opacity: 0.35
-    }
-    95% {
-        content: "O";
-        font-family: "Share Tech Mono", monospace;
-        opacity: 0.25;
-    }
-    97% {
-        content: "O";
-        font-family: "Share Tech Mono", monospace;
-        opacity: 0.1;
-    }
-    100% {
-        content: "O";
-        font-family: "Share Tech Mono", monospace;
-        opacity: 0;
-    }
+	0% {
+		content: "2";
+		font-family: "Share Tech Mono", monospace;
+		opacity: 1;
+	}
+	5% {
+		content: "2";
+		font-family: "Share Tech Mono", monospace;
+	}
+	30% {
+		content: "2";
+		font-family: "Share Tech Mono", monospace;
+	}
+	32% {
+		content: "8";
+		font-family: "Share Tech Mono", monospace;
+	}
+	34% {
+		content: "4";
+		font-family: "Share Tech Mono", monospace;
+	}
+	36% {
+		content: "7";
+		font-family: "Share Tech Mono", monospace;
+	}
+	38% {
+		content: "3";
+		font-family: "Share Tech Mono", monospace;
+	}
+	40% {
+		content: "5";
+		font-family: "Share Tech Mono", monospace;
+	}
+	42% {
+		content: "4";
+		font-family: "Share Tech Mono", monospace;
+	}
+	44% {
+		content: "9";
+		font-family: "Share Tech Mono", monospace;
+	}
+	46% {
+		content: "6";
+		font-family: "Share Tech Mono", monospace;
+	}
+	48% {
+		content: "5";
+		font-family: "Share Tech Mono", monospace;
+	}
+	50% {
+		content: "1";
+		font-family: "Share Tech Mono", monospace;
+	}
+	52% {
+		content: "O";
+		font-family: "Share Tech Mono", monospace;
+	}
+	80% {
+		content: "O";
+		font-family: "Share Tech Mono", monospace;
+		opacity: 1;
+	}
+	83% {
+		content: "O";
+		font-family: "Share Tech Mono", monospace;
+		opacity: 0.87;
+	}
+	85% {
+		content: "O";
+		font-family: "Share Tech Mono", monospace;
+		opacity: 0.75;
+	}
+	88% {
+		content: "O";
+		font-family: "Share Tech Mono", monospace;
+		opacity: 0.65;
+	}
+	90% {
+		content: "O";
+		font-family: "Share Tech Mono", monospace;
+		opacity: 0.5;
+	}
+	92% {
+		content: "O";
+		font-family: "Share Tech Mono", monospace;
+		opacity: 0.35
+	}
+	95% {
+		content: "O";
+		font-family: "Share Tech Mono", monospace;
+		opacity: 0.25;
+	}
+	97% {
+		content: "O";
+		font-family: "Share Tech Mono", monospace;
+		opacity: 0.1;
+	}
+	100% {
+		content: "O";
+		font-family: "Share Tech Mono", monospace;
+		opacity: 0;
+	}
 }
-
 .M:before {
-    content: "1";
-    animation: animate6 3s;
-    position: relative;
-    top: 210px;
-    right: 620px;
-    color: whitesmoke;
-    opacity: 0;
-    margin: 250px 0 0 400px;
-    padding: 0;
-    font-family: "Share Tech Mono", monospace;
-    font-size: 5em;
-    display: inline;
-    line-height: none;
+	content: "1";
+	animation: animate6 3s;
+	position: relative;
+	bottom: 171px;
+	left: 250px;
+	color: whitesmoke;
+	opacity: 0;
+	margin: 250px 0 0 400px;
+	padding: 0;
+	font-family: "Share Tech Mono", monospace;
+	font-size: 5em;
+	display: inline;
+	line-height: none;
 }
-
 @keyframes animate6 {
-    0% {
-        content: "1";
-        font-family: "Share Tech Mono", monospace;
-        opacity: 1;
-    }
-    5% {
-        content: "1";
-        font-family: "Share Tech Mono", monospace;
-    }
-    30% {
-        content: "1";
-        font-family: "Share Tech Mono", monospace;
-    }
-    32% {
-        content: "6";
-        font-family: "Share Tech Mono", monospace;
-    }
-    34% {
-        content: "4";
-        font-family: "Share Tech Mono", monospace;
-    }
-    36% {
-        content: "9";
-        font-family: "Share Tech Mono", monospace;
-    }
-    38% {
-        content: "5";
-        font-family: "Share Tech Mono", monospace;
-    }
-    40% {
-        content: "0";
-        font-family: "Share Tech Mono", monospace;
-    }
-    42% {
-        content: "3";
-        font-family: "Share Tech Mono", monospace;
-    }
-    44% {
-        content: "6";
-        font-family: "Share Tech Mono", monospace;
-    }
-    46% {
-        content: "8";
-        font-family: "Share Tech Mono", monospace;
-    }
-    48% {
-        content: "4";
-        font-family: "Share Tech Mono", monospace;
-    }
-    50% {
-        content: "3";
-        font-family: "Share Tech Mono", monospace;
-    }
-    52% {
-        content: "M";
-        font-family: "Share Tech Mono", monospace;
-    }
-    80% {
-        content: "M";
-        font-family: "Share Tech Mono", monospace;
-        opacity: 1;
-    }
-    83% {
-        content: "M";
-        font-family: "Share Tech Mono", monospace;
-        opacity: 0.87;
-    }
-    85% {
-        content: "M";
-        font-family: "Share Tech Mono", monospace;
-        opacity: 0.75;
-    }
-    88% {
-        content: "M";
-        font-family: "Share Tech Mono", monospace;
-        opacity: 0.65;
-    }
-    90% {
-        content: "M";
-        font-family: "Share Tech Mono", monospace;
-        opacity: 0.5;
-    }
-    92% {
-        content: "M";
-        font-family: "Share Tech Mono", monospace;
-        opacity: 0.35
-    }
-    95% {
-        content: "M";
-        font-family: "Share Tech Mono", monospace;
-        opacity: 0.25;
-    }
-    97% {
-        content: "M";
-        font-family: "Share Tech Mono", monospace;
-        opacity: 0.1;
-    }
-    100% {
-        content: "M";
-        font-family: "Share Tech Mono", monospace;
-        opacity: 0;
-    }
+	0% {
+		content: "1";
+		font-family: "Share Tech Mono", monospace;
+		opacity: 1;
+	}
+	5% {
+		content: "1";
+		font-family: "Share Tech Mono", monospace;
+	}
+	30% {
+		content: "1";
+		font-family: "Share Tech Mono", monospace;
+	}
+	32% {
+		content: "6";
+		font-family: "Share Tech Mono", monospace;
+	}
+	34% {
+		content: "4";
+		font-family: "Share Tech Mono", monospace;
+	}
+	36% {
+		content: "9";
+		font-family: "Share Tech Mono", monospace;
+	}
+	38% {
+		content: "5";
+		font-family: "Share Tech Mono", monospace;
+	}
+	40% {
+		content: "0";
+		font-family: "Share Tech Mono", monospace;
+	}
+	42% {
+		content: "3";
+		font-family: "Share Tech Mono", monospace;
+	}
+	44% {
+		content: "6";
+		font-family: "Share Tech Mono", monospace;
+	}
+	46% {
+		content: "8";
+		font-family: "Share Tech Mono", monospace;
+	}
+	48% {
+		content: "4";
+		font-family: "Share Tech Mono", monospace;
+	}
+	50% {
+		content: "3";
+		font-family: "Share Tech Mono", monospace;
+	}
+	52% {
+		content: "M";
+		font-family: "Share Tech Mono", monospace;
+	}
+	80% {
+		content: "M";
+		font-family: "Share Tech Mono", monospace;
+		opacity: 1;
+	}
+	83% {
+		content: "M";
+		font-family: "Share Tech Mono", monospace;
+		opacity: 0.87;
+	}
+	85% {
+		content: "M";
+		font-family: "Share Tech Mono", monospace;
+		opacity: 0.75;
+	}
+	88% {
+		content: "M";
+		font-family: "Share Tech Mono", monospace;
+		opacity: 0.65;
+	}
+	90% {
+		content: "M";
+		font-family: "Share Tech Mono", monospace;
+		opacity: 0.5;
+	}
+	92% {
+		content: "M";
+		font-family: "Share Tech Mono", monospace;
+		opacity: 0.35
+	}
+	95% {
+		content: "M";
+		font-family: "Share Tech Mono", monospace;
+		opacity: 0.25;
+	}
+	97% {
+		content: "M";
+		font-family: "Share Tech Mono", monospace;
+		opacity: 0.1;
+	}
+	100% {
+		content: "M";
+		font-family: "Share Tech Mono", monospace;
+		opacity: 0;
+	}
 }
-
 .E2:before {
-    content: "6";
-    animation: animate7 3s;
-    position: relative;
-    top: 120px;
-    left: 330px;
-    color: whitesmoke;
-    opacity: 0;
-    margin: 250px 0 0 400px;
-    padding: 0;
-    font-family: "Share Tech Mono", monospace;
-    font-size: 5em;
-    display: inline;
-    line-height: none;
+	content: "6";
+	animation: animate7 3s;
+	position: relative;
+	bottom: 260px;
+	left: 300px;
+	color: whitesmoke;
+	opacity: 0;
+	margin: 250px 0 0 400px;
+	padding: 0;
+	font-family: "Share Tech Mono", monospace;
+	font-size: 5em;
+	display: inline;
+	line-height: none;
 }
-
 @keyframes animate7 {
-    0% {
-        content: "6";
-        font-family: "Share Tech Mono", monospace;
-        opacity: 1;
-    }
-    5% {
-        content: "6";
-        font-family: "Share Tech Mono", monospace;
-    }
-    30% {
-        content: "6";
-        font-family: "Share Tech Mono", monospace;
-    }
-    32% {
-        content: "7";
-        font-family: "Share Tech Mono", monospace;
-    }
-    34% {
-        content: "0";
-        font-family: "Share Tech Mono", monospace;
-    }
-    36% {
-        content: "4";
-        font-family: "Share Tech Mono", monospace;
-    }
-    38% {
-        content: "2";
-        font-family: "Share Tech Mono", monospace;
-    }
-    40% {
-        content: "7";
-        font-family: "Share Tech Mono", monospace;
-    }
-    42% {
-        content: "1";
-        font-family: "Share Tech Mono", monospace;
-    }
-    44% {
-        content: "4";
-        font-family: "Share Tech Mono", monospace;
-    }
-    46% {
-        content: "3";
-        font-family: "Share Tech Mono", monospace;
-    }
-    48% {
-        content: "6";
-        font-family: "Share Tech Mono", monospace;
-    }
-    50% {
-        content: "0";
-        font-family: "Share Tech Mono", monospace;
-    }
-    52% {
-        content: "E";
-        font-family: "Share Tech Mono", monospace;
-    }
-    80% {
-        content: "E";
-        font-family: "Share Tech Mono", monospace;
-        opacity: 1;
-    }
-    83% {
-        content: "E";
-        font-family: "Share Tech Mono", monospace;
-        opacity: 0.87;
-    }
-    85% {
-        content: "E";
-        font-family: "Share Tech Mono", monospace;
-        opacity: 0.75;
-    }
-    88% {
-        content: "E";
-        font-family: "Share Tech Mono", monospace;
-        opacity: 0.65;
-    }
-    90% {
-        content: "E";
-        font-family: "Share Tech Mono", monospace;
-        opacity: 0.5;
-    }
-    92% {
-        content: "E";
-        font-family: "Share Tech Mono", monospace;
-        opacity: 0.35
-    }
-    95% {
-        content: "E";
-        font-family: "Share Tech Mono", monospace;
-        opacity: 0.25;
-    }
-    97% {
-        content: "E";
-        font-family: "Share Tech Mono", monospace;
-        opacity: 0.1;
-    }
-    100% {
-        content: "E";
-        font-family: "Share Tech Mono", monospace;
-        opacity: 0;
-    }
+	0% {
+		content: "6";
+		font-family: "Share Tech Mono", monospace;
+		opacity: 1;
+	}
+	5% {
+		content: "6";
+		font-family: "Share Tech Mono", monospace;
+	}
+	30% {
+		content: "6";
+		font-family: "Share Tech Mono", monospace;
+	}
+	32% {
+		content: "7";
+		font-family: "Share Tech Mono", monospace;
+	}
+	34% {
+		content: "0";
+		font-family: "Share Tech Mono", monospace;
+	}
+	36% {
+		content: "4";
+		font-family: "Share Tech Mono", monospace;
+	}
+	38% {
+		content: "2";
+		font-family: "Share Tech Mono", monospace;
+	}
+	40% {
+		content: "7";
+		font-family: "Share Tech Mono", monospace;
+	}
+	42% {
+		content: "1";
+		font-family: "Share Tech Mono", monospace;
+	}
+	44% {
+		content: "4";
+		font-family: "Share Tech Mono", monospace;
+	}
+	46% {
+		content: "3";
+		font-family: "Share Tech Mono", monospace;
+	}
+	48% {
+		content: "6";
+		font-family: "Share Tech Mono", monospace;
+	}
+	50% {
+		content: "0";
+		font-family: "Share Tech Mono", monospace;
+	}
+	52% {
+		content: "E";
+		font-family: "Share Tech Mono", monospace;
+	}
+	80% {
+		content: "E";
+		font-family: "Share Tech Mono", monospace;
+		opacity: 1;
+	}
+	83% {
+		content: "E";
+		font-family: "Share Tech Mono", monospace;
+		opacity: 0.87;
+	}
+	85% {
+		content: "E";
+		font-family: "Share Tech Mono", monospace;
+		opacity: 0.75;
+	}
+	88% {
+		content: "E";
+		font-family: "Share Tech Mono", monospace;
+		opacity: 0.65;
+	}
+	90% {
+		content: "E";
+		font-family: "Share Tech Mono", monospace;
+		opacity: 0.5;
+	}
+	92% {
+		content: "E";
+		font-family: "Share Tech Mono", monospace;
+		opacity: 0.35
+	}
+	95% {
+		content: "E";
+		font-family: "Share Tech Mono", monospace;
+		opacity: 0.25;
+	}
+	97% {
+		content: "E";
+		font-family: "Share Tech Mono", monospace;
+		opacity: 0.1;
+	}
+	100% {
+		content: "E";
+		font-family: "Share Tech Mono", monospace;
+		opacity: 0;
+	}
 }
-
 .intro {
-    position: relative;
-    left: 140px;
+	position: relative;
+	left: 140px;
 }
-
 /* END INTRO ANIMATION */
 
-
 body {
-    background-color: black;
+	background-color: black;
 }
-
 /* main heading */
+
 #main-heading {
-    animation: animate8 4s;  
-    opacity: 1;
-    font-family: "Share Tech Mono", monospace;
-    font-size: 60px;
-    color: gray;
-    position: relative;
-    left: 30px;
-    bottom: 650px;
-    margin: 0;
-    display: inline;
+	animation: animate8 4s;
+	opacity: 1;
+	font-family: "Share Tech Mono", monospace;
+	font-size: 60px;
+	color: gray;
+	position: relative;
+	left: 30px;
+	bottom: 650px;
+	margin: 0;
+	display: inline;
 }
-
 @keyframes animate8 {
-    0% {
-        opacity: 0;
-    }
-
-    90% {
-        opacity: 0;
-    }
-
-    100% {
-        opacity: 1;
-    }
+	0% {
+		opacity: 0;
+	}
+	90% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
 }
-
 /* NAV BAR */
+
 .nav-button {
-    animation: animate9 4s;  
-    opacity: 1;
-    display: inline-block;
-    cursor: default;
-    position: relative;
-    bottom: 660px;
-    left: 1160px;
-
+	animation: animate9 4s;
+	opacity: 1;
+	display: inline-block;
+	cursor: default;
+	position: relative;
+	bottom: 660px;
+	left: 1160px;
 }
-
 @keyframes animate9 {
-    0% {
-        opacity: 0;
-    }
-
-    90% {
-        opacity: 0;
-    }
-
-    100% {
-        opacity: 1;
-    }
+	0% {
+		opacity: 0;
+	}
+	90% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
 }
-
 .bar1, .bar2, .bar3 {
-    width: 35px;
-    height: 5px;
-    background-color: gray;
-    margin: 6px 0;
-    transition: 0.4s;
+	width: 35px;
+	height: 5px;
+	background-color: gray;
+	margin: 6px 0;
+	transition: 0.4s;
 }
-
 .change .bar1 {
-    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
-    transform: rotate(-45deg) translate(-9px, 6px);
+	-webkit-transform: rotate(-45deg) translate(-9px, 6px);
+	transform: rotate(-45deg) translate(-9px, 6px);
 }
-
-.change .bar2 {opacity: 0;}
-
+.change .bar2 {
+	opacity: 0;
+}
 .change .bar3 {
-    -webkit-transform: rotate(45deg) translate(-8px, -8px);
-    transform: rotate(45deg) translate(-8px, -8px);
+	-webkit-transform: rotate(45deg) translate(-8px, -8px);
+	transform: rotate(45deg) translate(-8px, -8px);
 }
-
 /* SideBar Nav */
+
 .sidenav {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 3;
-    top: 0;
-    right: 0;
-    background-color: whitesmoke;
-    overflow-x: hidden;
-    transition: 0.5s;
-    padding-top: 60px;
+	height: 100%;
+	width: 0;
+	position: fixed;
+	z-index: 3;
+	top: 0;
+	right: 0;
+	background-color: whitesmoke;
+	overflow-x: hidden;
+	transition: 0.5s;
+	padding-top: 60px;
 }
-
 .sidenav .closebtn {
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 55px;
-    margin-left: 50px;
-    text-decoration: none;
-    color: black;
+	position: absolute;
+	top: 0;
+	right: 25px;
+	font-size: 55px;
+	margin-left: 50px;
+	text-decoration: none;
+	color: black;
 }
-
-#about,
-#portfolio,
-#contact {
-    font-family: "Share Tech Mono", monospace;
-    font-size: 30px;
-    color: black;
-    text-decoration: none;
-    line-height: 40px;
-    margin: 20px;
-    border-radius: 2px;
-    position: relative;
-    top: 30px;
+#about, #portfolio, #contact {
+	font-family: "Share Tech Mono", monospace;
+	font-size: 30px;
+	color: black;
+	text-decoration: none;
+	line-height: 40px;
+	margin: 20px;
+	border-radius: 2px;
+	position: relative;
+	top: 30px;
 }
-
-#about:hover,
-#portfolio:hover,
-#contact:hover {
-    color: whitesmoke;
-    background-color: black;
-    padding-top: 3px;
-    padding-bottom: 10px;
-    padding-left: 12px;
-    padding-right: 12px;
-    margin: 0;
+#about:hover, #portfolio:hover, #contact:hover {
+	color: whitesmoke;
+	background-color: black;
+	padding-top: 3px;
+	padding-bottom: 10px;
+	padding-left: 12px;
+	padding-right: 12px;
+	margin: 0;
 }
-
-
 @media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
+	.sidenav {
+		padding-top: 15px;
+	}
+	.sidenav a {
+		font-size: 18px;
+	}
 }
-
 /* Change Background */
+
 body {
-    background: black;
-    width: 100%;
-    height: 4000px;
- }
-
+	background: black;
+	width: 100%;
+	height: 4000px;
+}
 .change-background {
-    position: absolute;
-    top: 1000px;
-    left: 0px;
-    width: 100%;
-    height: 1000px;
-    background-color: whitesmoke;
-    z-index: 1;
+	position: absolute;
+	top: 1000px;
+	left: 0px;
+	width: 100%;
+	height: 1000px;
+	background-color: whitesmoke;
+	z-index: 1;
 }
-
 .change-background2 {
-    position: absolute;
-    top: 2000px;
-    left: 0px;
-    width: 100%;
-    height: 1000px;
-    background-color: #3f3f3f;
-    z-index: 1;
+	position: absolute;
+	top: 2000px;
+	left: 0px;
+	width: 100%;
+	height: 1000px;
+	background-color: #3f3f3f;
+	z-index: 1;
 }
-
-
-
 /* CONTENT */
 
-
 .subheading {
-    font-family: "Share Tech Mono", monospace;
-    color: gray;
-    font-size: 70px;
+	font-family: "Share Tech Mono", monospace;
+	color: gray;
+	font-size: 70px;
 }
-
 /* Portfolio Heading */
+
 .subheading2 {
-    font-family: "Share Tech Mono", monospace;
-    color: whitesmoke;
-    font-size: 70px;
+	font-family: "Share Tech Mono", monospace;
+	color: whitesmoke;
+	font-size: 70px;
 }
-
 /* ABOUT */
+
 #about-section {
-    width: 900px;
-    position: relative;
-    left: 300px;
-    top: 400px;
-    z-index: 2;
+	width: 900px;
+	position: relative;
+	left: 300px;
+	top: 400px;
+	z-index: 2;
 }
+/* PORTFOLIO */
 
-/* PORTFOLIO */ 
 #portfolio-section {
-    width: 1000px;
-    position: relative;
-    left: 300px;
-    top: 800px;
-    z-index: 2;
+	width: 1000px;
+	position: relative;
+	left: 300px;
+	top: 800px;
+	z-index: 2;
 }
-
 /* project links */
-#crystalg,
-#superhero-search,
-#traintime {
-    text-align: center;
-    text-decoration: none;
-}
 
-.crystal,
-.superhero,
-.train {
-    color: whitesmoke;
-    display: inline;
+#crystalg, #superhero-search, #traintime {
+	text-align: center;
+	text-decoration: none;
 }
-
-.crystal:hover,
-.superhero:hover,
-.train:hover {
-    color: black;
+.crystal, .superhero, .train {
+	color: whitesmoke;
+	display: inline;
 }
-
+.crystal:hover, .superhero:hover, .train:hover {
+	color: black;
+}
 /* crystal challenge */
+
 .crystal {
-    float: left;
-    position: relative;
-    right: 60px;
+	float: left;
+	position: relative;
+	right: 60px;
 }
-
 .crystal-repo {
-    z-index: 2;
-    width: 100px;
-    position:relative;
-    bottom: 450px;
-    right: 200px;
+	z-index: 2;
+	width: 100px;
+	position: relative;
+	bottom: 450px;
+	right: 200px;
 }
-
 .crystal-image {
-    z-index: 2;
-    width: 300px;
-    height: 560px;
-    position: relative;
-    top: 127px;
-    right: 400px;
+	z-index: 2;
+	width: 300px;
+	height: 560px;
+	position: relative;
+	top: 127px;
+	right: 400px;
 }
-
 /* superhero search */
+
 .superhero {
-    position: relative;
-    left: 300px;
-    bottom: 575px;
+	position: relative;
+	left: 300px;
+	bottom: 575px;
 }
-
 .superhero-repo {
-    z-index: 2;
-    width: 100px;
-    position:relative;
-    bottom: 504px;
-    left: 150px;
+	z-index: 2;
+	width: 100px;
+	position: relative;
+	bottom: 504px;
+	left: 150px;
 }
-
 .superhero-image {
-    z-index: 2;
-    width: 300px;
-    height: 560px;
-    position: absolute;
-    top: 265px;
-    right: 450px;
+	z-index: 2;
+	width: 300px;
+	height: 560px;
+	position: absolute;
+	top: 265px;
+	right: 450px;
 }
-
 /* train times */
+
 .train {
-    position: relative;
-    bottom: 570px;
-    left: 350px;
+	position: relative;
+	bottom: 570px;
+	left: 350px;
 }
-
 #traintime {
-    position: relative;
-    bottom: 570px;
-    left: 350px;
+	position: relative;
+	bottom: 570px;
+	left: 350px;
 }
-
 .train-repo {
-    z-index: 2;
-    width: 100px;
-    position: relative;
-    left: 600px;
-    bottom: 1070px;
+	z-index: 2;
+	width: 100px;
+	position: relative;
+	left: 600px;
+	bottom: 1070px;
 }
-
 .train-image {
-    z-index: 2;
-    width: 300px;
-    height: 560px;
-    position: relative;
-    bottom: 490px;
-    left: 400px;
+	z-index: 2;
+	width: 300px;
+	height: 560px;
+	position: relative;
+	bottom: 490px;
+	left: 400px;
 }
-
 /* CONTACT */
+
 #contact-section {
-    width: 900px;
-    position: relative;
-    left: 300px;
-    top: 600px;
-    padding-left: 30px;
-    z-index: 2;
+	width: 900px;
+	position: relative;
+	left: 300px;
+	top: 600px;
+	padding-left: 30px;
+	z-index: 2;
 }
-
 form {
-    font-family: "Aldrich", sans-serif;
-    color: whitesmoke;
-    font-size: 15px;
+	font-family: "Aldrich", sans-serif;
+	color: whitesmoke;
+	font-size: 15px;
 }
-
-input,
-textarea {
-    width: 800px;
-    background-color: black;
-    border: 1px solid whitesmoke;
-    border-radius: 2px;
-    color: white;
+input, textarea {
+	width: 800px;
+	background-color: black;
+	border: 1px solid whitesmoke;
+	border-radius: 2px;
+	color: white;
 }
-
 .submit {
-    width: 100px;
-    padding-top: 3px;
-    padding-bottom: 3px;
-    font-family: "Aldrich", sans-serif;
+	width: 100px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	font-family: "Aldrich", sans-serif;
 }
-
 .submit:hover {
-    color: black;
-    background-color: white;
+	color: black;
+	background-color: white;
 }
-
 p {
-    font-family: "Aldrich", sans-serif;
-    color: black;
-    font-size: 20px;
+	font-family: "Aldrich", sans-serif;
+	color: black;
+	font-size: 20px;
 }
-
 /* Other Contact Links */
+
 .links {
-    color: whitesmoke;
-    display: inline;
-    z-index: 2;
-    position: relative;
-    top: 700px;
-    left: 300px;
-    text-decoration: none;
-    font-family: "Aldrich", sans-serif;
-    padding-right: 30px;
+	color: whitesmoke;
+	display: inline;
+	z-index: 2;
+	position: relative;
+	top: 700px;
+	left: 300px;
+	text-decoration: none;
+	font-family: "Aldrich", sans-serif;
+	padding-right: 30px;
 }
-
-
-
-
-
-
-
-
 /* MEDIA QUERIES */
 
 @media only screen and (max-width: 980px) {
-    #container {
-        height: auto 0;
-    }
-
-    body {
-        height: 4300px;
-    }
-    .W:before {
-        position: absolute;
-        top: 400px;
-        left: 120px;
-        font-size: 60px;
-    }
-
-    .E:before {
-        position: absolute;
-        top: 400px;
-        left: 160px;
-        font-size: 60px;
-    }
-
-    .L:before {
-        position: absolute;
-        top: 400px;
-        left: 200px;
-        font-size: 60px;
-    }
-
-    .C:before {
-        position: absolute;
-        top: 400px;
-        left: 230px;
-        font-size: 60px;
-    }
-
-    .O:before {
-        position: absolute;
-        top: 400px;
-        left: 270px;
-        font-size: 60px;
-    }
-
-    .M:before {
-        position: absolute;
-        top: 400px;
-        left: 320px;
-        font-size: 60px;
-    }
-
-    .E2:before {
-        position: absolute;
-        top: 400px;
-        left: 360px;
-        font-size: 60px;
-    }
-   
-    .intro {
-        display: inline;
-        line-height: 10px;
-        position: relative;
-        left: 70px;
-        bottom: 150px;
-    }
-
-    #main-heading {
-        position: absolute;
-        top: 10px;
-        font-family: "Share Tech Mono", monospace;
-    }
-   
-    .nav-button {
-        position: absolute;
-        left: 650px;
-        bottom: 600px;
-    }
-
-    .sidenav {
-        height: 100%;
-        width: 0;
-        position: fixed;
-        z-index: 3;
-        top: 0;
-        right: 530px;
-        background-color: whitesmoke;
-        overflow-x: hidden;
-        transition: 0.5s;
-        padding-top: 60px;
-    }
-
-    .change-background {
-        position: absolute;
-        top: 1000px;
-        margin-left: 0;
-        width: 100%;
-        height: 2000px;
-        background-color: whitesmoke;
-        z-index: 1;
-    }
-
-    #about-section {
-        position: relative;
-        width: 600px;
-        top: 900px;
-        left: 40px;
-        z-index: 2;
-    }
-
-    .subheading {
-        position: relative;
-        left: 90px;
-        font-family: "Share Tech Mono", monospace;
-    }
-
-    .change-background2 {
-        position: absolute;
-        bottom: 3000px;
-        left: 0px;
-        width: 100%;
-        height: 1200px;
-        z-index: 1;
-    }
-
-    #portfolio-section {
-        position: relative;
-        left: 230px;
-        top: 1200px;
-        z-index: 2;
-        width: 1000px;
-    }
-
-    .subheading2 {
-        position: relative;
-        right: 105px;
-        top: 100px;
-    }
-
-    .crystal-image,
-    .superhero-image,
-    .train-image {
-        width: 100px;
-        height: 250px;
-    }
-
-    .crystal {
-        position: relative;
-        right: 150px;
-        top: 100px;
-    }
-
-    .crystal-repo {
-        position: relative;
-        right: 300px;
-        bottom: 50px;
-    }
-
-    .crystal-image {
-        position: relative;
-        right: 400px;
-        top: 260px;
-    }
-
-    .superhero {
-        position: relative;
-        bottom: 365px;
-        right: 500px;
-    }
-
-    #superhero-search {
-        position: relative;
-        bottom: 0px;
-        right: 150px;
-    }
-
-    .superhero-repo {
-        position: relative;
-        bottom: 300px;
-        left: 0px;
-    }
-
-    .superhero-image {
-        position: relative;
-        right: 110px;
-        top: 0px;
-        z-index: 3;
-    }
-
-    .train {
-        position: relative;
-        bottom: 80px;
-        left: 10px;
-    }
-
-    #traintime {
-        position: relative;
-        bottom: 80px;
-        left: 10px;
-    }
-    .train-repo {
-        position: absolute;
-        left: 30px;
-        bottom: 100px;
-    }
-
-    .train-image {
-        position: relative;
-        left: 0;
-        top: 200px;
-    }
-
-    #contact-section {
-        position: relative;
-        top: 1550px;
-        left: 20px;
-        width: 550px;
-        z-index: 2;
-    }
-
-    input,
-    textarea {
-    width: 550px;
-    }
-
-    .links {
-        position: relative;
-        top: 1600px;
-        left: 20px;
-    }
+	#container {
+		height: auto 0;
+	}
+	body {
+		height: 4300px;
+	}
+	.W:before {
+		position: absolute;
+		top: 400px;
+		left: 120px;
+		font-size: 60px;
+	}
+	.E:before {
+		position: absolute;
+		top: 400px;
+		left: 160px;
+		font-size: 60px;
+	}
+	.L:before {
+		position: absolute;
+		top: 400px;
+		left: 200px;
+		font-size: 60px;
+	}
+	.C:before {
+		position: absolute;
+		top: 400px;
+		left: 230px;
+		font-size: 60px;
+	}
+	.O:before {
+		position: absolute;
+		top: 400px;
+		left: 270px;
+		font-size: 60px;
+	}
+	.M:before {
+		position: absolute;
+		top: 400px;
+		left: 320px;
+		font-size: 60px;
+	}
+	.E2:before {
+		position: absolute;
+		top: 400px;
+		left: 360px;
+		font-size: 60px;
+	}
+	.intro {
+		display: inline;
+		line-height: 10px;
+		position: relative;
+		left: 70px;
+		bottom: 150px;
+	}
+	#main-heading {
+		position: absolute;
+		top: 10px;
+		font-family: "Share Tech Mono", monospace;
+	}
+	.nav-button {
+		position: absolute;
+		left: 650px;
+		bottom: 600px;
+	}
+	.sidenav {
+		height: 100%;
+		width: 0;
+		position: fixed;
+		z-index: 3;
+		top: 0;
+		right: 530px;
+		background-color: whitesmoke;
+		overflow-x: hidden;
+		transition: 0.5s;
+		padding-top: 60px;
+	}
+	.change-background {
+		position: absolute;
+		top: 1000px;
+		margin-left: 0;
+		width: 100%;
+		height: 2000px;
+		background-color: whitesmoke;
+		z-index: 1;
+	}
+	#about-section {
+		position: relative;
+		width: 600px;
+		top: 900px;
+		left: 40px;
+		z-index: 2;
+	}
+	.subheading {
+		position: relative;
+		left: 90px;
+		font-family: "Share Tech Mono", monospace;
+	}
+	.change-background2 {
+		position: absolute;
+		bottom: 3000px;
+		left: 0px;
+		width: 100%;
+		height: 1200px;
+		z-index: 1;
+	}
+	#portfolio-section {
+		position: relative;
+		left: 230px;
+		top: 1200px;
+		z-index: 2;
+		width: 1000px;
+	}
+	.subheading2 {
+		position: relative;
+		right: 105px;
+		top: 100px;
+	}
+	.crystal-image, .superhero-image, .train-image {
+		width: 100px;
+		height: 250px;
+	}
+	.crystal {
+		position: relative;
+		right: 150px;
+		top: 100px;
+	}
+	.crystal-repo {
+		position: relative;
+		right: 300px;
+		bottom: 50px;
+	}
+	.crystal-image {
+		position: relative;
+		right: 400px;
+		top: 260px;
+	}
+	.superhero {
+		position: relative;
+		bottom: 365px;
+		right: 500px;
+	}
+	#superhero-search {
+		position: relative;
+		bottom: 0px;
+		right: 150px;
+	}
+	.superhero-repo {
+		position: relative;
+		bottom: 300px;
+		left: 0px;
+	}
+	.superhero-image {
+		position: relative;
+		right: 110px;
+		top: 0px;
+		z-index: 3;
+	}
+	.train {
+		position: relative;
+		bottom: 80px;
+		left: 10px;
+	}
+	#traintime {
+		position: relative;
+		bottom: 80px;
+		left: 10px;
+	}
+	.train-repo {
+		position: absolute;
+		left: 30px;
+		bottom: 100px;
+	}
+	.train-image {
+		position: relative;
+		left: 0;
+		top: 200px;
+	}
+	#contact-section {
+		position: relative;
+		top: 1550px;
+		left: 20px;
+		width: 550px;
+		z-index: 2;
+	}
+	input, textarea {
+		width: 550px;
+	}
+	.links {
+		position: relative;
+		top: 1600px;
+		left: 20px;
+	}
 }
-
 @media only screen and (max-width: 768px) {
-    #container {
-        height: auto 0;
-    }
-
-    body {
-        height: 4300px;
-    }
-    .W:before {
-        position: absolute;
-        top: 400px;
-        left: 120px;
-        font-size: 55px;
-    }
-
-    .E:before {
-        position: absolute;
-        top: 400px;
-        left: 160px;
-        font-size: 55px;
-    }
-
-    .L:before {
-        position: absolute;
-        top: 400px;
-        left: 200px;
-        font-size: 55px;
-    }
-
-    .C:before {
-        position: absolute;
-        top: 400px;
-        left: 230px;
-        font-size: 55px;
-    }
-
-    .O:before {
-        position: absolute;
-        top: 400px;
-        left: 270px;
-        font-size: 55px;
-    }
-
-    .M:before {
-        position: absolute;
-        top: 400px;
-        left: 320px;
-        font-size: 55px;
-    }
-
-    .E2:before {
-        position: absolute;
-        top: 400px;
-        left: 360px;
-        font-size: 55px;
-    }
-   
-    .intro {
-        display: inline;
-        line-height: 10px;
-        position: relative;
-        left: 100px;
-        bottom: 100px;
-    }
-
-    #main-heading {
-        position: absolute;
-        top: 10px;
-        font-family: "Share Tech Mono", monospace;
-    }
-   
-    .nav-button {
-        position: absolute;
-        left: 640px;
-        bottom: 610px;
-    }
-
-    .sidenav {
-        height: 100%;
-        width: 0;
-        position: fixed;
-        z-index: 3;
-        top: 0;
-        right: 530px;
-        background-color: whitesmoke;
-        overflow-x: hidden;
-        transition: 0.5s;
-        padding-top: 60px;
-    }
-
-    .change-background {
-        position: absolute;
-        top: 1000px;
-        margin-left: 0;
-        width: 100%;
-        height: 2000px;
-        background-color: whitesmoke;
-        z-index: 1;
-    }
-
-    #about-section {
-        position: relative;
-        width: 600px;
-        top: 800px;
-        left: 30px;
-        z-index: 2;
-    }
-
-    .subheading {
-        position: relative;
-        left: 90px;
-        font-family: "Share Tech Mono", monospace;
-    }
-
-    .change-background2 {
-        position: absolute;
-        bottom: 3000px;
-        left: 0px;
-        width: 100%;
-        height: 1200px;
-        z-index: 1;
-    }
-
-    #portfolio-section {
-        position: relative;
-        left: 220px;
-        top: 1100px;
-        z-index: 2;
-        width: 1000px;
-    }
-
-    .subheading2 {
-        position: relative;
-        right: 105px;
-        top: 100px;
-    }
-
-    .crystal-image,
-    .superhero-image,
-    .train-image {
-        width: 100px;
-        height: 250px;
-    }
-
-    .crystal {
-        position: relative;
-        right: 150px;
-        top: 100px;
-    }
-
-    .crystal-repo {
-        position: relative;
-        right: 300px;
-        bottom: 50px;
-    }
-
-    .crystal-image {
-        position: relative;
-        right: 400px;
-        top: 260px;
-    }
-
-    .superhero {
-        position: relative;
-        bottom: 365px;
-        right: 500px;
-    }
-
-    #superhero-search {
-        position: relative;
-        bottom: 0px;
-        right: 150px;
-    }
-
-    .superhero-repo {
-        position: relative;
-        bottom: 300px;
-        left: 0px;
-    }
-
-    .superhero-image {
-        position: relative;
-        right: 110px;
-        top: 0px;
-        z-index: 3;
-    }
-
-    .train {
-        position: relative;
-        left: 20px;
-        bottom: 200px;
-    }
-
-    #traintime {
-        position: relative;
-        left: 20px;
-        bottom: 200px;
-    }
-    .train-repo {
-        position: absolute;
-        left: 50px;
-        bottom: 40px;
-    }
-
-    .train-image {
-        position: relative;
-        right: 60px;
-        top: 250px;
-    }
-
-    #contact-section {
-        position: relative;
-        top: 1450px;
-        left: 5px;
-        width: 550px;
-        z-index: 2;
-    }
-
-    input,
-    textarea {
-    width: 550px;
-    }
-
-    .links {
-        position: relative;
-        top: 1500px;
-        left: 20px;
-    }
+	#container {
+		height: auto 0;
+	}
+	body {
+		height: 4300px;
+	}
+	.W:before {
+		position: absolute;
+		top: 400px;
+		left: 120px;
+		font-size: 55px;
+	}
+	.E:before {
+		position: absolute;
+		top: 400px;
+		left: 160px;
+		font-size: 55px;
+	}
+	.L:before {
+		position: absolute;
+		top: 400px;
+		left: 200px;
+		font-size: 55px;
+	}
+	.C:before {
+		position: absolute;
+		top: 400px;
+		left: 230px;
+		font-size: 55px;
+	}
+	.O:before {
+		position: absolute;
+		top: 400px;
+		left: 270px;
+		font-size: 55px;
+	}
+	.M:before {
+		position: absolute;
+		top: 400px;
+		left: 320px;
+		font-size: 55px;
+	}
+	.E2:before {
+		position: absolute;
+		top: 400px;
+		left: 360px;
+		font-size: 55px;
+	}
+	.intro {
+		display: inline;
+		line-height: 10px;
+		position: relative;
+		left: 100px;
+		bottom: 100px;
+	}
+	#main-heading {
+		position: absolute;
+		top: 10px;
+		font-family: "Share Tech Mono", monospace;
+	}
+	.nav-button {
+		position: absolute;
+		left: 640px;
+		bottom: 610px;
+	}
+	.sidenav {
+		height: 100%;
+		width: 0;
+		position: fixed;
+		z-index: 3;
+		top: 0;
+		right: 530px;
+		background-color: whitesmoke;
+		overflow-x: hidden;
+		transition: 0.5s;
+		padding-top: 60px;
+	}
+	.change-background {
+		position: absolute;
+		top: 1000px;
+		margin-left: 0;
+		width: 100%;
+		height: 2000px;
+		background-color: whitesmoke;
+		z-index: 1;
+	}
+	#about-section {
+		position: relative;
+		width: 600px;
+		top: 800px;
+		left: 30px;
+		z-index: 2;
+	}
+	.subheading {
+		position: relative;
+		left: 90px;
+		font-family: "Share Tech Mono", monospace;
+	}
+	.change-background2 {
+		position: absolute;
+		bottom: 3000px;
+		left: 0px;
+		width: 100%;
+		height: 1200px;
+		z-index: 1;
+	}
+	#portfolio-section {
+		position: relative;
+		left: 220px;
+		top: 1100px;
+		z-index: 2;
+		width: 1000px;
+	}
+	.subheading2 {
+		position: relative;
+		right: 105px;
+		top: 100px;
+	}
+	.crystal-image, .superhero-image, .train-image {
+		width: 100px;
+		height: 250px;
+	}
+	.crystal {
+		position: relative;
+		right: 150px;
+		top: 100px;
+	}
+	.crystal-repo {
+		position: relative;
+		right: 300px;
+		bottom: 50px;
+	}
+	.crystal-image {
+		position: relative;
+		right: 400px;
+		top: 260px;
+	}
+	.superhero {
+		position: relative;
+		bottom: 365px;
+		right: 500px;
+	}
+	#superhero-search {
+		position: relative;
+		bottom: 0px;
+		right: 150px;
+	}
+	.superhero-repo {
+		position: relative;
+		bottom: 300px;
+		left: 0px;
+	}
+	.superhero-image {
+		position: relative;
+		right: 110px;
+		top: 0px;
+		z-index: 3;
+	}
+	.train {
+		position: relative;
+		left: 20px;
+		bottom: 200px;
+	}
+	#traintime {
+		position: relative;
+		left: 20px;
+		bottom: 200px;
+	}
+	.train-repo {
+		position: absolute;
+		left: 50px;
+		bottom: 40px;
+	}
+	.train-image {
+		position: relative;
+		right: 60px;
+		top: 250px;
+	}
+	#contact-section {
+		position: relative;
+		top: 1450px;
+		left: 5px;
+		width: 550px;
+		z-index: 2;
+	}
+	input, textarea {
+		width: 550px;
+	}
+	.links {
+		position: relative;
+		top: 1500px;
+		left: 20px;
+	}
 }
-
 @media only screen and (max-width: 640px) {
-    #container {
-        height: auto 0;
-    }
-
-    body {
-        width: 640px;
-        height: 4300px;
-    }
-    .W:before {
-        position: absolute;
-        top: 400px;
-        left: 100px;
-        font-size: 80px;
-    }
-
-    .E:before {
-        position: absolute;
-        top: 400px;
-        left: 150px;
-        font-size: 80px;
-    }
-
-    .L:before {
-        position: absolute;
-        top: 400px;
-        left: 200px;
-        font-size: 80px;
-    }
-
-    .C:before {
-        position: absolute;
-        top: 400px;
-        left: 250px;
-        font-size: 80px;
-    }
-
-    .O:before {
-        position: absolute;
-        top: 400px;
-        left: 300px;
-        font-size: 80px;
-    }
-
-    .M:before {
-        position: absolute;
-        top: 400px;
-        left: 350px;
-        font-size: 80px;
-    }
-
-    .E2:before {
-        position: absolute;
-        top: 400px;
-        left: 400px;
-        font-size: 80px;
-    }
-   
-    .intro {
-        display: inline;
-        line-height: 10px;
-        position: relative;
-        left: 40px;
-        bottom: 70px;
-    }
-
-    #main-heading {
-        position: absolute;
-        top: 10px;
-        font-family: "Share Tech Mono", monospace;
-        font-size: 80px;
-    }
-   
-    .nav-button {
-        position: relative;
-        bottom: 200px;
-        left: 180px;
-    }
-
-    .sidenav {
-        height: 100%;
-        width: 0;
-        position: fixed;
-        z-index: 3;
-        top: 0;
-        right: 485px;
-        background-color: whitesmoke;
-        overflow-x: hidden;
-        transition: 0.5s;
-        padding-top: 60px;
-    }
-
-    .change-background {
-        position: absolute;
-        top: 1500px;
-        left: 0;
-        width: 640px;
-        height: 2000px;
-        background-color: whitesmoke;
-        z-index: 1;
-    }
-
-    #about-section {
-        position: relative;
-        width: 600px;
-        top: 1300px;
-        left: 20px;
-        z-index: 2;
-    }
-
-    .subheading {
-        position: relative;
-        left: 90px;
-        font-family: "Share Tech Mono", monospace;
-        font-size: 80px;
-    }
-
-    p {
-        font-size: 30px;
-    }
-
-    .change-background2 {
-        position: absolute;
-        top: 3000px;
-        left: 0px;
-        width: 640px;
-        height: 1500px;
-        z-index: 1;
-    }
-
-    #portfolio-section {
-        position: relative;
-        left: 20px;
-        top: 1600px;
-        z-index: 2;
-        width: 1000px;
-    }
-
-    .subheading2 {
-        position: relative;
-        left: 100px;
-        top: 100px;
-        font-size: 80px;
-    }
-
-    .crystal-image,
-    .superhero-image,
-    .train-image {
-        width: 100px;
-        height: 250px;
-    }
-
-    .crystal {
-        position: relative;
-        right: 10px;
-        top: 100px;
-    }
-
-    .crystal-repo {
-        position: relative;
-        right: 200px;
-        bottom: 0;
-    }
-
-    .crystal-image {
-        position: relative;
-        right: 300px;
-        top: 270px;
-    }
-
-    .superhero {
-        position: relative;
-        bottom: 172px;
-        right: 0;
-    }
-
-    #superhero-search {
-        position: relative;
-        bottom: 172px;
-        right: 0;
-    }
-
-    .superhero-repo {
-        position: relative;
-        bottom: 255px;
-        left: 100px;
-    }
-
-    .superhero-image {
-        position: relative;
-        right: 0;
-        top: 20px;
-        z-index: 3;
-    }
-
-    .train {
-        position: relative;
-        bottom: 300px;
-        right: 10px;
-    }
-
-    #traintime {
-        position: relative;
-        bottom: 200px;
-        left: 200px;
-    }
-    .train-repo {
-        position: relative;
-        left: 50px;
-        bottom: 10px;
-    }
-
-    .train-image {
-        position: relative;
-        left: 0;
-        bottom: 2000px;
-    }
-
-    #contact-section {
-        position: relative;
-        top: 2200px;
-        left: 20px;
-        width: 500px;
-        z-index: 2;
-    }
-
-    input,
-    textarea {
-    width: 500px;
-    }
-
-    .links {
-        position: relative;
-        top: 2300px;
-        left: 70px;
-    }
+	#container {
+		height: auto 0;
+	}
+	body {
+		width: 640px;
+		height: 4300px;
+	}
+	.W:before {
+		position: absolute;
+		top: 400px;
+		left: 100px;
+		font-size: 80px;
+	}
+	.E:before {
+		position: absolute;
+		top: 400px;
+		left: 150px;
+		font-size: 80px;
+	}
+	.L:before {
+		position: absolute;
+		top: 400px;
+		left: 200px;
+		font-size: 80px;
+	}
+	.C:before {
+		position: absolute;
+		top: 400px;
+		left: 250px;
+		font-size: 80px;
+	}
+	.O:before {
+		position: absolute;
+		top: 400px;
+		left: 300px;
+		font-size: 80px;
+	}
+	.M:before {
+		position: absolute;
+		top: 400px;
+		left: 350px;
+		font-size: 80px;
+	}
+	.E2:before {
+		position: absolute;
+		top: 400px;
+		left: 400px;
+		font-size: 80px;
+	}
+	.intro {
+		display: inline;
+		line-height: 10px;
+		position: relative;
+		left: 40px;
+		bottom: 70px;
+	}
+	#main-heading {
+		position: absolute;
+		top: 10px;
+		font-family: "Share Tech Mono", monospace;
+		font-size: 80px;
+	}
+	.nav-button {
+		position: relative;
+		bottom: 200px;
+		left: 180px;
+	}
+	.sidenav {
+		height: 100%;
+		width: 0;
+		position: fixed;
+		z-index: 3;
+		top: 0;
+		right: 485px;
+		background-color: whitesmoke;
+		overflow-x: hidden;
+		transition: 0.5s;
+		padding-top: 60px;
+	}
+	.change-background {
+		position: absolute;
+		top: 1500px;
+		left: 0;
+		width: 640px;
+		height: 2000px;
+		background-color: whitesmoke;
+		z-index: 1;
+	}
+	#about-section {
+		position: relative;
+		width: 600px;
+		top: 1300px;
+		left: 20px;
+		z-index: 2;
+	}
+	.subheading {
+		position: relative;
+		left: 90px;
+		font-family: "Share Tech Mono", monospace;
+		font-size: 80px;
+	}
+	p {
+		font-size: 30px;
+	}
+	.change-background2 {
+		position: absolute;
+		top: 3000px;
+		left: 0px;
+		width: 640px;
+		height: 1500px;
+		z-index: 1;
+	}
+	#portfolio-section {
+		position: relative;
+		left: 20px;
+		top: 1600px;
+		z-index: 2;
+		width: 1000px;
+	}
+	.subheading2 {
+		position: relative;
+		left: 100px;
+		top: 100px;
+		font-size: 80px;
+	}
+	.crystal-image, .superhero-image, .train-image {
+		width: 100px;
+		height: 250px;
+	}
+	.crystal {
+		position: relative;
+		right: 10px;
+		top: 100px;
+	}
+	.crystal-repo {
+		position: relative;
+		right: 200px;
+		bottom: 0;
+	}
+	.crystal-image {
+		position: relative;
+		right: 300px;
+		top: 270px;
+	}
+	.superhero {
+		position: relative;
+		bottom: 172px;
+		right: 0;
+	}
+	#superhero-search {
+		position: relative;
+		bottom: 172px;
+		right: 0;
+	}
+	.superhero-repo {
+		position: relative;
+		bottom: 255px;
+		left: 100px;
+	}
+	.superhero-image {
+		position: relative;
+		right: 0;
+		top: 20px;
+		z-index: 3;
+	}
+	.train {
+		position: relative;
+		bottom: 300px;
+		right: 10px;
+	}
+	#traintime {
+		position: relative;
+		bottom: 200px;
+		left: 200px;
+	}
+	.train-repo {
+		position: relative;
+		left: 50px;
+		bottom: 10px;
+	}
+	.train-image {
+		position: relative;
+		left: 0;
+		bottom: 2000px;
+	}
+	#contact-section {
+		position: relative;
+		top: 2200px;
+		left: 20px;
+		width: 500px;
+		z-index: 2;
+	}
+	input, textarea {
+		width: 500px;
+	}
+	.links {
+		position: relative;
+		top: 2300px;
+		left: 70px;
+	}
 }
-
-
-
-
