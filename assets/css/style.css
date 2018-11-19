@@ -7,8 +7,7 @@
 h1 {
     margin: 250px 0 0 400px;
     padding: 0;
-    font-family: 'Share Tech Mono', monospace;
-   /* font-family: 'Aldrich', sans-serif; */ 
+    font-family:  "Share Tech Mono ", monospace;
     font-size: 5em;
     display: inline;
     line-height: none;
@@ -27,104 +26,104 @@ h1 {
 @keyframes animate {
     0% {
         content: "W";
-        font-family: 'Share Tech Mono', monospace;
+        font-family:  "Share Tech Mono ", monospace;
         opacity: 1;
     }
     5% {
         content: "W";
-        font-family: 'Share Tech Mono', monospace;
+        font-family:  "Share Tech Mono ", monospace;
     }
     30% {
         content: "W";
-        font-family: 'Share Tech Mono', monospace;
+        font-family:  "Share Tech Mono ", monospace;
     }
     32% {
         content: "M";
-        font-family: 'Share Tech Mono', monospace;
+        font-family:  "Share Tech Mono ", monospace;
     }
     34% {
         content: "Q";
-         font-family: 'Share Tech Mono', monospace;
+         font-family:  "Share Tech Mono ", monospace;
     }
     36% {
         content: "S";
-         font-family: 'Share Tech Mono', monospace;
+         font-family:  "Share Tech Mono ", monospace;
     }
     38% {
         content: "B";
-         font-family: 'Share Tech Mono', monospace;
+         font-family:  "Share Tech Mono ", monospace;
     }
     40% {
         content: "A";
-         font-family: 'Share Tech Mono', monospace;
+         font-family:  "Share Tech Mono ", monospace;
     }
     42% {
         content: "L";
-         font-family: 'Share Tech Mono', monospace;
+         font-family:  "Share Tech Mono ", monospace;
     }
     44% {
         content: "F";
-         font-family: 'Share Tech Mono', monospace;
+         font-family:  "Share Tech Mono ", monospace;
     }
     46% {
         content: "K";
-         font-family: 'Share Tech Mono', monospace;
+         font-family:  "Share Tech Mono ", monospace;
     }
     48% {
         content: "D";
-         font-family: 'Share Tech Mono', monospace;
+         font-family:  "Share Tech Mono ", monospace;
     }
     50% {
         content: "B";
-         font-family: 'Share Tech Mono', monospace;
+         font-family:  "Share Tech Mono ", monospace;
     }
     52% {
         content: "W";
-         font-family: 'Share Tech Mono', monospace;;
+         font-family:  "Share Tech Mono ", monospace;
     }
     80% {
         content: "W";
-         font-family: 'Share Tech Mono', monospace;;
+         font-family:  "Share Tech Mono ", monospace;
         opacity: 1;
     }
     83% {
         content: "W";
-         font-family: 'Share Tech Mono', monospace;;
+         font-family:  "Share Tech Mono ", monospace;
         opacity: 0.87;
     }
     85% {
         content: "W";
-         font-family: 'Share Tech Mono', monospace;;
+         font-family:  "Share Tech Mono ", monospace;
         opacity: 0.75;
     }
     88% {
         content: "W";
-         font-family: 'Share Tech Mono', monospace;;
+         font-family:  "Share Tech Mono ", monospace;
         opacity: 0.65;
     }
     90% {
         content: "W";
-         font-family: 'Share Tech Mono', monospace;;
+         font-family:  "Share Tech Mono ", monospace;
         opacity: 0.5
     }
     92% {
         content: "W";
-         font-family: 'Share Tech Mono', monospace;;
-        opacity: 0.35
+         font-family:  "Share Tech Mono ", monospace;
+        opacity: 0.3;
     }
     95% {
         content: "W";
-         font-family: 'Share Tech Mono', monospace;;
+         font-family:  "Share Tech Mono ", monospace;
         opacity: 0.25;
     }
     97% {
         content: "W";
-         font-family: 'Share Tech Mono', monospace;;
+         font-family:  "Share Tech Mono ", monospace;
         opacity: 0.1;
     }
     100% {
         content: "W";
-         font-family: 'Share Tech Mono', monospace;;
+         font-family:  "Share Tech Mono ", monospace;
         opacity: 0;
     }
     
@@ -144,104 +143,104 @@ h1 {
 @keyframes animate2 {
     0% {
         content: "E";
-         font-family: 'Share Tech Mono', monospace;
+         font-family:  "Share Tech Mono ", monospace;
         opacity: 1;
     }
     5% {
         content: "E";
-         font-family: 'Share Tech Mono', monospace;
+         font-family:  "Share Tech Mono ", monospace;
     }
     30% {
         content: "E";
-         font-family: 'Share Tech Mono', monospace;
+         font-family:  "Share Tech Mono ", monospace;
     }
     32% {
         content: "S";
-         font-family: 'Share Tech Mono', monospace;
+         font-family:  "Share Tech Mono ", monospace;
     }
     34% {
         content: "Q";
-         font-family: 'Share Tech Mono', monospace;
+         font-family:  "Share Tech Mono ", monospace;
     }
     36% {
         content: "X";
-         font-family: 'Share Tech Mono', monospace;
+         font-family:  "Share Tech Mono ", monospace;
     }
     38% {
         content: "H";
-         font-family: 'Share Tech Mono', monospace;
+         font-family:  "Share Tech Mono ", monospace;
     }
     40% {
         content: "F";
-         font-family: 'Share Tech Mono', monospace;
+         font-family:  "Share Tech Mono ", monospace;
     }
     42% {
         content: "Y";
-         font-family: 'Share Tech Mono', monospace;
+         font-family:  "Share Tech Mono ", monospace;
     }
     44% {
         content: "D";
-         font-family: 'Share Tech Mono', monospace;
+         font-family:  "Share Tech Mono ", monospace;
     }
     46% {
         content: "F";
-         font-family: 'Share Tech Mono', monospace;
+         font-family:  "Share Tech Mono ", monospace;
     }
     48% {
         content: "P";
-         font-family: 'Share Tech Mono', monospace;
+         font-family:  "Share Tech Mono ", monospace;
     }
     50% {
         content: "D";
-         font-family: 'Share Tech Mono', monospace;
+         font-family:  "Share Tech Mono ", monospace;
     }
     52% {
         content: "E";
-         font-family: 'Share Tech Mono', monospace;;
+         font-family:  "Share Tech Mono ", monospace;
     }
     80% {
         content: "E";
-         font-family: 'Share Tech Mono', monospace;;
+         font-family:  "Share Tech Mono ", monospace;
         opacity: 1;
     }
     83% {
         content: "E";
-         font-family: 'Share Tech Mono', monospace;;
+         font-family:  "Share Tech Mono ", monospace;
         opacity: 0.87;
     }
     85% {
         content: "E";
-         font-family: 'Share Tech Mono', monospace;;
+         font-family:  "Share Tech Mono ", monospace;
         opacity: 0.75;
     }
     88% {
         content: "E";
-         font-family: 'Share Tech Mono', monospace;;
+         font-family:  "Share Tech Mono ", monospace;
         opacity: 0.65;
     }
     90% {
         content: "E";
-         font-family: 'Share Tech Mono', monospace;;
+         font-family:  "Share Tech Mono ", monospace;
         opacity: 0.5;
     }
     92% {
         content: "E";
-         font-family: 'Share Tech Mono', monospace;;
+         font-family:  "Share Tech Mono ", monospace;
         opacity: 0.35
     }
     95% {
         content: "E";
-         font-family: 'Share Tech Mono', monospace;;
+         font-family:  "Share Tech Mono ", monospace;
         opacity: 0.25; 
     }
     97% {
         content: "E";
-         font-family: 'Share Tech Mono', monospace;;
+         font-family:  "Share Tech Mono ", monospace;
         opacity: 0.1;
     }
     100% {
         content: "E";
-         font-family: 'Share Tech Mono', monospace;;
+         font-family:  "Share Tech Mono ", monospace;
         opacity: 0;
     }
 }
@@ -259,104 +258,104 @@ h1 {
 @keyframes animate3 {
     0% {
         content: "L";
-         font-family: 'Share Tech Mono', monospace;
+         font-family:  "Share Tech Mono ", monospace;
         opacity: 1;
     }
     5% {
         content: "L";
-         font-family: 'Share Tech Mono', monospace;
+         font-family:  "Share Tech Mono ", monospace;
     }
     30% {
         content: "L";
-         font-family: 'Share Tech Mono', monospace;
+         font-family:  "Share Tech Mono ", monospace;
     }
     32% {
         content: "X";
-         font-family: 'Share Tech Mono', monospace;
+         font-family:  "Share Tech Mono ", monospace;
     }
     34% {
         content: "Y";
-         font-family: 'Share Tech Mono', monospace;
+         font-family:  "Share Tech Mono ", monospace;
     }
     36% {
         content: "B";
-         font-family: 'Share Tech Mono', monospace;
+         font-family:  "Share Tech Mono ", monospace;
     }
     38% {
         content: "W";
-         font-family: 'Share Tech Mono', monospace;
+         font-family:  "Share Tech Mono ", monospace;
     }
     40% {
         content: "C";
-         font-family: 'Share Tech Mono', monospace;
+         font-family:  "Share Tech Mono ", monospace;
     }
     42% {
         content: "I";
-         font-family: 'Share Tech Mono', monospace;
+         font-family:  "Share Tech Mono ", monospace;
     }
     44% {
         content: "L";
-         font-family: 'Share Tech Mono', monospace;
+         font-family:  "Share Tech Mono ", monospace;
     }
     46% {
         content: "G";
-         font-family: 'Share Tech Mono', monospace;
+         font-family:  "Share Tech Mono ", monospace;
     }
     48% {
         content: "K";
-         font-family: 'Share Tech Mono', monospace;
+         font-family:  "Share Tech Mono ", monospace;
     }
     50% {
         content: "R";
-         font-family: 'Share Tech Mono', monospace;
+         font-family:  "Share Tech Mono ", monospace;
     }
     52% {
         content: "L";
-         font-family: 'Share Tech Mono', monospace;;
+         font-family:  "Share Tech Mono ", monospace;
     }
     80% {
         content: "L";
-         font-family: 'Share Tech Mono', monospace;;
+         font-family:  "Share Tech Mono ", monospace;
         opacity: 1;
     }
     83% {
         content: "L";
-         font-family: 'Share Tech Mono', monospace;;
+         font-family:  "Share Tech Mono ", monospace;
         opacity: 0.87;
     }
     85% {
         content: "L";
-         font-family: 'Share Tech Mono', monospace;;
+         font-family:  "Share Tech Mono ", monospace;
         opacity: 0.75;
     }
     88% {
         content: "L";
-         font-family: 'Share Tech Mono', monospace;;
+         font-family:  "Share Tech Mono ", monospace;
         opacity: 0.65;
     }
     90% {
         content: "L";
-         font-family: 'Share Tech Mono', monospace;;
+         font-family:  "Share Tech Mono ", monospace;
         opacity: 0.5;
     }
     92% {
         content: "L";
-         font-family: 'Share Tech Mono', monospace;;
+         font-family:  "Share Tech Mono ", monospace;
         opacity: 0.35
     }
     95% {
         content: "L";
-         font-family: 'Share Tech Mono', monospace;;
+         font-family:  "Share Tech Mono ", monospace;
         opacity: 0.25;
     }
     97% {
         content: "L";
-         font-family: 'Share Tech Mono', monospace;;
+         font-family:  "Share Tech Mono ", monospace;
         opacity: 0.1;
     }
     100% {
         content: "L";
-         font-family: 'Share Tech Mono', monospace;;
+         font-family:  "Share Tech Mono ", monospace;
         opacity: 0;
     }
 }
@@ -374,104 +373,104 @@ h1 {
 @keyframes animate4 {
     0% {
         content: "C";
-         font-family: 'Share Tech Mono', monospace;
+         font-family:  "Share Tech Mono ", monospace;
         opacity: 1;
     }
     5% {
         content: "C";
-         font-family: 'Share Tech Mono', monospace;
+         font-family:  "Share Tech Mono ", monospace;
     }
     30% {
         content: "C";
-         font-family: 'Share Tech Mono', monospace;
+         font-family:  "Share Tech Mono ", monospace;
     }
     32% {
         content: "U";
-         font-family: 'Share Tech Mono', monospace;
+         font-family:  "Share Tech Mono ", monospace;
     }
     34% {
         content: "Y";
-         font-family: 'Share Tech Mono', monospace;
+         font-family:  "Share Tech Mono ", monospace;
     }
     36% {
         content: "P";
-         font-family: 'Share Tech Mono', monospace;
+         font-family:  "Share Tech Mono ", monospace;
     }
     38% {
         content: "R";
-         font-family: 'Share Tech Mono', monospace;
+         font-family:  "Share Tech Mono ", monospace;
     }
     40% {
         content: "M";
-         font-family: 'Share Tech Mono', monospace;
+         font-family:  "Share Tech Mono ", monospace;
     }
     42% {
         content: "D";
-         font-family: 'Share Tech Mono', monospace;
+         font-family:  "Share Tech Mono ", monospace;
     }
     44% {
         content: "X";
-         font-family: 'Share Tech Mono', monospace;
+         font-family:  "Share Tech Mono ", monospace;
     }
     46% {
         content: "J";
-         font-family: 'Share Tech Mono', monospace;
+         font-family:  "Share Tech Mono ", monospace;
     }
     48% {
         content: "F";
-         font-family: 'Share Tech Mono', monospace;
+         font-family:  "Share Tech Mono ", monospace;
     }
     50% {
         content: "I";
-         font-family: 'Share Tech Mono', monospace;
+         font-family:  "Share Tech Mono ", monospace;
     }
     52% {
         content: "C";
-         font-family: 'Share Tech Mono', monospace;;
+         font-family:  "Share Tech Mono ", monospace;
     }
     80% {
         content: "C";
-         font-family: 'Share Tech Mono', monospace;;
+         font-family:  "Share Tech Mono ", monospace;
         opacity: 1;
     }
     83% {
         content: "C";
-         font-family: 'Share Tech Mono', monospace;;
+         font-family:  "Share Tech Mono ", monospace;
         opacity: 0.87;
     }
     85% {
         content: "C";
-         font-family: 'Share Tech Mono', monospace;;
+         font-family:  "Share Tech Mono ", monospace;
         opacity: 0.75;
     }
     88% {
         content: "C";
-         font-family: 'Share Tech Mono', monospace;;
+         font-family:  "Share Tech Mono ", monospace;
         opacity: 0.65;
     }
     90% {
         content: "C";
-         font-family: 'Share Tech Mono', monospace;;
+         font-family:  "Share Tech Mono ", monospace;
         opacity: 0.5;
     }
     92% {
         content: "C";
-         font-family: 'Share Tech Mono', monospace;;
+         font-family:  "Share Tech Mono ", monospace;
         opacity: 0.35
     }
     95% {
         content: "C";
-         font-family: 'Share Tech Mono', monospace;;
+         font-family:  "Share Tech Mono ", monospace;
         opacity: 0.25;
     }
     97% {
         content: "C";
-         font-family: 'Share Tech Mono', monospace;;
+         font-family:  "Share Tech Mono ", monospace;
         opacity: 0.1;
     }
     100% {
         content: "C";
-         font-family: 'Share Tech Mono', monospace;;
+         font-family:  "Share Tech Mono ", monospace;
         opacity: 0;
     }
 }
@@ -489,104 +488,104 @@ h1 {
 @keyframes animate5 {
     0% {
         content: "O";
-         font-family: 'Share Tech Mono', monospace;
+         font-family:  "Share Tech Mono ", monospace;
         opacity: 1;
     }
     5% {
         content: "O";
-         font-family: 'Share Tech Mono', monospace;
+         font-family:  "Share Tech Mono ", monospace;
     }
     30% {
         content: "O";
-         font-family: 'Share Tech Mono', monospace;
+         font-family:  "Share Tech Mono ", monospace;
     }
     32% {
         content: "X";
-         font-family: 'Share Tech Mono', monospace;
+         font-family:  "Share Tech Mono ", monospace;
     }
     34% {
         content: "D";
-         font-family: 'Share Tech Mono', monospace;
+         font-family:  "Share Tech Mono ", monospace;
     }
     36% {
         content: "J";
-         font-family: 'Share Tech Mono', monospace;
+         font-family:  "Share Tech Mono ", monospace;
     }
     38% {
         content: "W";
-         font-family: 'Share Tech Mono', monospace;
+         font-family:  "Share Tech Mono ", monospace;
     }
     40% {
         content: "Z";
-         font-family: 'Share Tech Mono', monospace;
+         font-family:  "Share Tech Mono ", monospace;
     }
     42% {
         content: "Q";
-         font-family: 'Share Tech Mono', monospace;
+         font-family:  "Share Tech Mono ", monospace;
     }
     44% {
         content: "S";
-         font-family: 'Share Tech Mono', monospace;
+         font-family:  "Share Tech Mono ", monospace;
     }
     46% {
         content: "O";
-         font-family: 'Share Tech Mono', monospace;
+         font-family:  "Share Tech Mono ", monospace;
     }
     48% {
         content: "L";
-         font-family: 'Share Tech Mono', monospace;
+         font-family:  "Share Tech Mono ", monospace;
     }
     50% {
         content: "G";
-         font-family: 'Share Tech Mono', monospace;
+         font-family:  "Share Tech Mono ", monospace;
     }
     52% {
         content: "O";
-         font-family: 'Share Tech Mono', monospace;;
+         font-family:  "Share Tech Mono ", monospace;
     }
     80% {
         content: "O";
-         font-family: 'Share Tech Mono', monospace;;
+         font-family:  "Share Tech Mono ", monospace;
         opacity: 1;
     }
     83% {
         content: "O";
-         font-family: 'Share Tech Mono', monospace;;
+         font-family:  "Share Tech Mono ", monospace;
         opacity: 0.87;
     }
     85% {
         content: "O";
-         font-family: 'Share Tech Mono', monospace;;
+         font-family:  "Share Tech Mono ", monospace;
         opacity: 0.75;
     }
     88% {
         content: "O";
-         font-family: 'Share Tech Mono', monospace;;
+         font-family:  "Share Tech Mono ", monospace;
         opacity: 0.65;
     }
     90% {
         content: "O";
-         font-family: 'Share Tech Mono', monospace;;
+         font-family:  "Share Tech Mono ", monospace;
         opacity: 0.5;
     }
     92% {
         content: "O";
-         font-family: 'Share Tech Mono', monospace;;
+         font-family:  "Share Tech Mono ", monospace;
         opacity: 0.35
     }
     95% {
         content: "O";
-         font-family: 'Share Tech Mono', monospace;;
+         font-family:  "Share Tech Mono ", monospace;
         opacity: 0.25;
     }
     97% {
         content: "O";
-         font-family: 'Share Tech Mono', monospace;;
+         font-family:  "Share Tech Mono ", monospace;
         opacity: 0.1;
     }
     100% {
         content: "O";
-         font-family: 'Share Tech Mono', monospace;;
+         font-family:  "Share Tech Mono ", monospace;
         opacity: 0;
     }
 }
@@ -604,104 +603,104 @@ h1 {
 @keyframes animate6 {
     0% {
         content: "M";
-         font-family: 'Share Tech Mono', monospace;
+         font-family:  "Share Tech Mono ", monospace;
         opacity: 1;
     }
     5% {
         content: "M";
-         font-family: 'Share Tech Mono', monospace;
+         font-family:  "Share Tech Mono ", monospace;
     }
     30% {
         content: "M";
-         font-family: 'Share Tech Mono', monospace;
+         font-family:  "Share Tech Mono ", monospace;
     }
     32% {
         content: "Y";
-         font-family: 'Share Tech Mono', monospace;
+         font-family:  "Share Tech Mono ", monospace;
     }
     34% {
         content: "N";
-         font-family: 'Share Tech Mono', monospace;
+         font-family:  "Share Tech Mono ", monospace;
     }
     36% {
         content: "P";
-         font-family: 'Share Tech Mono', monospace;
+         font-family:  "Share Tech Mono ", monospace;
     }
     38% {
         content: "C";
-         font-family: 'Share Tech Mono', monospace;
+         font-family:  "Share Tech Mono ", monospace;
     }
     40% {
         content: "T";
-         font-family: 'Share Tech Mono', monospace;
+         font-family:  "Share Tech Mono ", monospace;
     }
     42% {
         content: "K";
-         font-family: 'Share Tech Mono', monospace;
+         font-family:  "Share Tech Mono ", monospace;
     }
     44% {
         content: "F";
-         font-family: 'Share Tech Mono', monospace;
+         font-family:  "Share Tech Mono ", monospace;
     }
     46% {
         content: "W";
-         font-family: 'Share Tech Mono', monospace;
+         font-family:  "Share Tech Mono ", monospace;
     }
     48% {
         content: "S";
-         font-family: 'Share Tech Mono', monospace;
+         font-family:  "Share Tech Mono ", monospace;
     }
     50% {
         content: "H";
-         font-family: 'Share Tech Mono', monospace;
+         font-family:  "Share Tech Mono ", monospace;
     }
     52% {
         content: "M";
-         font-family: 'Share Tech Mono', monospace;;
+         font-family:  "Share Tech Mono ", monospace;
     }
     80% {
         content: "M";
-         font-family: 'Share Tech Mono', monospace;;
+         font-family:  "Share Tech Mono ", monospace;
         opacity: 1;
     }
     83% {
         content: "M";
-         font-family: 'Share Tech Mono', monospace;;
+         font-family:  "Share Tech Mono ", monospace;
         opacity: 0.87;
     }
     85% {
         content: "M";
-         font-family: 'Share Tech Mono', monospace;;
+         font-family:  "Share Tech Mono ", monospace;
         opacity: 0.75;
     }
     88% {
         content: "M";
-         font-family: 'Share Tech Mono', monospace;;
+         font-family:  "Share Tech Mono ", monospace;
         opacity: 0.65;
     }
     90% {
         content: "M";
-         font-family: 'Share Tech Mono', monospace;;
+         font-family:  "Share Tech Mono ", monospace;
         opacity: 0.5;
     }
     92% {
         content: "M";
-         font-family: 'Share Tech Mono', monospace;;
+         font-family:  "Share Tech Mono ", monospace;
         opacity: 0.35
     }
     95% {
         content: "M";
-         font-family: 'Share Tech Mono', monospace;;
+         font-family:  "Share Tech Mono ", monospace;
         opacity: 0.25;
     }
     97% {
         content: "M";
-         font-family: 'Share Tech Mono', monospace;;
+         font-family:  "Share Tech Mono ", monospace;
         opacity: 0.1;
     }
     100% {
         content: "M";
-         font-family: 'Share Tech Mono', monospace;;
+         font-family:  "Share Tech Mono ", monospace;
         opacity: 0;
     }
 }
@@ -719,104 +718,104 @@ h1 {
 @keyframes animate7 {
     0% {
         content: "E";
-         font-family: 'Share Tech Mono', monospace;
+         font-family:  "Share Tech Mono ", monospace;
         opacity: 1;
     }
     5% {
         content: "E";
-         font-family: 'Share Tech Mono', monospace;
+         font-family:  "Share Tech Mono ", monospace;
     }
     30% {
         content: "E";
-         font-family: 'Share Tech Mono', monospace;
+         font-family:  "Share Tech Mono ", monospace;
     }
     32% {
         content: "Y";
-         font-family: 'Share Tech Mono', monospace;
+         font-family:  "Share Tech Mono ", monospace;
     }
     34% {
         content: "N";
-         font-family: 'Share Tech Mono', monospace;
+         font-family:  "Share Tech Mono ", monospace;
     }
     36% {
         content: "P";
-         font-family: 'Share Tech Mono', monospace;
+         font-family:  "Share Tech Mono ", monospace;
     }
     38% {
         content: "C";
-         font-family: 'Share Tech Mono', monospace;
+         font-family:  "Share Tech Mono ", monospace;
     }
     40% {
         content: "T";
-         font-family: 'Share Tech Mono', monospace;
+         font-family:  "Share Tech Mono ", monospace;
     }
     42% {
         content: "K";
-         font-family: 'Share Tech Mono', monospace;
+         font-family:  "Share Tech Mono ", monospace;
     }
     44% {
         content: "F";
-         font-family: 'Share Tech Mono', monospace;
+         font-family:  "Share Tech Mono ", monospace;
     }
     46% {
         content: "W";
-         font-family: 'Share Tech Mono', monospace;
+         font-family:  "Share Tech Mono ", monospace;
     }
     48% {
         content: "S";
-         font-family: 'Share Tech Mono', monospace;
+         font-family:  "Share Tech Mono ", monospace;
     }
     50% {
         content: "H";
-         font-family: 'Share Tech Mono', monospace;
+         font-family:  "Share Tech Mono ", monospace;
     }
     52% {
         content: "E";
-         font-family: 'Share Tech Mono', monospace;
+         font-family:  "Share Tech Mono ", monospace;
     }
     80% {
         content: "E";
-         font-family: 'Share Tech Mono', monospace;
+         font-family:  "Share Tech Mono ", monospace;
         opacity: 1;
     }
     83% {
         content: "E";
-         font-family: 'Share Tech Mono', monospace;
+         font-family:  "Share Tech Mono ", monospace;
         opacity: 0.87;
     }
     85% {
         content: "E";
-         font-family: 'Share Tech Mono', monospace;
+         font-family:  "Share Tech Mono ", monospace;
         opacity: 0.75;
     }
     88% {
         content: "E";
-         font-family: 'Share Tech Mono', monospace;
+         font-family:  "Share Tech Mono ", monospace;
         opacity: 0.65;
     }
     90% {
         content: "E";
-         font-family: 'Share Tech Mono', monospace;
+         font-family:  "Share Tech Mono ", monospace;
         opacity: 0.5;
     }
     92% {
         content: "E";
-         font-family: 'Share Tech Mono', monospace;
+         font-family:  "Share Tech Mono ", monospace;
         opacity: 0.35
     }
     95% {
         content: "E";
-         font-family: 'Share Tech Mono', monospace;
+         font-family:  "Share Tech Mono ", monospace;
         opacity: 0.25;
     }
     97% {
         content: "E";
-         font-family: 'Share Tech Mono', monospace;
+         font-family:  "Share Tech Mono ", monospace;
         opacity: 0.1;
     }
     100% {
         content: "E";
-         font-family: 'Share Tech Mono', monospace;
+         font-family:  "Share Tech Mono ", monospace;
         opacity: 0;
     }
 }
@@ -837,7 +836,7 @@ body {
 #main-heading {
     animation: animate8 4s;  
     opacity: 1;
-    font-family: 'Share Tech Mono', monospace;
+    font-family:  "Share Tech Mono ", monospace;
     font-size: 60px;
     color: gray;
     position: relative;
@@ -936,7 +935,7 @@ body {
 #about,
 #portfolio,
 #contact {
-     font-family: 'Share Tech Mono', monospace;
+     font-family:  "Share Tech Mono ", monospace;
     font-size: 30px;
     color: black;
     text-decoration: none;
@@ -999,7 +998,7 @@ body {
 
 
 .subheading {
-     font-family: 'Share Tech Mono', monospace;, "Azonix;
+     font-family:  "Share Tech Mono ", monospace;
     src: url("assets/images/mixofx_azonix/Azonix");
     color: gray;
     font-size: 70px;
@@ -1007,7 +1006,7 @@ body {
 
 /* Portfolio Heading */
 .subheading2 {
-     font-family: 'Share Tech Mono', monospace;
+     font-family:  "Share Tech Mono ", monospace;
     color: whitesmoke;
     font-size: 70px;
 }
@@ -1250,7 +1249,7 @@ p {
     #main-heading {
         position: absolute;
         top: 10px;
-         font-family: 'Share Tech Mono', monospace;
+         font-family:  "Share Tech Mono ", monospace;
     }
    
     .nav-button {
@@ -1293,7 +1292,7 @@ p {
     .subheading {
         position: relative;
         left: 90px;
-        font-family: 'Share Tech Mono', monospace;
+        font-family:  "Share Tech Mono ", monospace;
     }
 
     .change-background2 {
@@ -1480,7 +1479,7 @@ p {
     #main-heading {
         position: absolute;
         top: 10px;
-        font-family: 'Share Tech Mono', monospace;
+        font-family:  "Share Tech Mono ", monospace;
     }
    
     .nav-button {
@@ -1523,7 +1522,7 @@ p {
     .subheading {
         position: relative;
         left: 90px;
-         font-family: 'Share Tech Mono', monospace;
+         font-family:  "Share Tech Mono ", monospace;
     }
 
     .change-background2 {
@@ -1710,7 +1709,7 @@ p {
     #main-heading {
         position: absolute;
         top: 10px;
-         font-family: 'Share Tech Mono', monospace;
+         font-family:  "Share Tech Mono ", monospace;
     }
    
     .nav-button {
@@ -1753,7 +1752,7 @@ p {
     .subheading {
         position: relative;
         left: 90px;
-         font-family: 'Share Tech Mono', monospace;
+         font-family:  "Share Tech Mono ", monospace;
     }
 
     .change-background2 {
